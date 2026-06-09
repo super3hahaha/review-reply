@@ -1,0 +1,30 @@
+{
+  "_comment": "packageName → 产品 sheet 名。null 表示该 app 暂时没有模板 sheet，skill 走纯生成路径。",
+  "_template_products": ["XFolder", "MP3 Cutter", "Video to MP3"],
+  "mapping": {
+    "files.fileexplorer.filemanager": {
+      "product": "XFolder",
+      "display": "File Manager"
+    },
+    "ringtone.maker.mp3.cutter.audio": {
+      "product": "MP3 Cutter",
+      "display": "MP3 Cutter and Ringtone Maker"
+    },
+    "freeringtonesforandroid.bestringtoneapp.ringtone": {
+      "product": null,
+      "display": "Music Ringtones for Android",
+      "internal_name": "ringwall",
+      "note": "暂无模板 sheet，所有回复走 LLM 生成"
+    },
+    "video.player.videoplayer": {
+      "product": null,
+      "display": "Video Player All Format",
+      "internal_name": "xplayer",
+      "note": "暂无模板 sheet，所有回复走 LLM 生成"
+    },
+    "mp3videoconverter.videotomp3.videotomp3converter": {
+      "product": "Video to MP3",
+      "display": "Video to MP3 - Video to Audio"
+    }
+  }
+}

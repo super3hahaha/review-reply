@@ -1,0 +1,10 @@
+# 本地 Claude 设置（含 settings.local.json，不入公开库）
+.claude/
+
+# xlsx 编辑备份 / 临时锁文件（不入库）
+data/源文件备份*.xlsx
+~$*.xlsx
+
+# Python
+__pycache__/
+*.pyc

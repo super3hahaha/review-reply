@@ -1,0 +1,1528 @@
+{
+  "version": "2026-06-09T10:18:54Z",
+  "source_file": "XFolder用户回复模板.xlsx",
+  "products": {
+    "XFolder": {
+      "templates": [
+        {
+          "id": "xfolder-001",
+          "category": "要五星",
+          "text": "Hi there, thanks for trying our app! If you find it useful, we would be grateful if you could rate us 5 stars to support us. Thank you and have a great day! 🌟🌟🌟🌟🌟"
+        },
+        {
+          "id": "xfolder-002",
+          "category": "要五星",
+          "text": "Hello there! We appreciate your kind words and support. If you enjoy our app, would you mind leaving us a 5-star rating? It would inspire us to keep improving and providing you with the best possible experience. Best regards, and thank you again for your feedback. 🌹"
+        },
+        {
+          "id": "xfolder-003",
+          "category": "无意义差评",
+          "text": "Hi there! Thank you for your feedback. Could you please give us more specific details about what you dislike about our app? This would help us to improve and provide a better user experience for you. Thanks!"
+        },
+        {
+          "id": "xfolder-004",
+          "category": "无意义评论",
+          "text": "Hi there! Thank you for your feedback. Could you please give us more specific details about what you like or dislike about our app? This would help us to improve and provide a better user experience for you. Thanks!"
+        },
+        {
+          "id": "xfolder-005",
+          "category": "抱怨某个功能",
+          "text": "Thank you for letting us know about the issue you're experiencing with our app. We apologize for any inconvenience this has caused. Our team is actively working on a solution. We appreciate your patience and understanding. If you have any further questions, please feel free to contact us."
+        },
+        {
+          "id": "xfolder-006",
+          "category": "缺点+建议没给五星",
+          "text": "Thank you for your feedback. We apologize for the inconvenience you have experienced and appreciate your suggestions on how we can improve. We are committed to providing the best user experience possible and will continue to work on adding new features and addressing these issues. Please keep an eye out for future updates."
+        },
+        {
+          "id": "xfolder-007",
+          "category": "不理解的评论",
+          "text": "Hi there! Thank you for your feedback. We're not sure what you are referring to specifically. Could you please provide more context or details about the situation? This would help us to improve and provide a better user experience for you. Thanks!"
+        },
+        {
+          "id": "xfolder-008",
+          "category": "差、详细问题",
+          "text": "Hello there! We're sorry for the trouble you're experiencing. Could you please provide us with more details about the issue so we can help you better? Your assistance is greatly appreciated and will help us to solve the problem. Thank you in advance for your help, we're here to support you! 🙏"
+        },
+        {
+          "id": "xfolder-009",
+          "category": "询问toast",
+          "text": "Is there an error message popping up?"
+        },
+        {
+          "id": "xfolder-010",
+          "category": "广告",
+          "text": "Thank you for your feedback! We understand that ads may affect your experience, but ads are an important part of supporting our continued development and maintenance of the app. We will work hard to optimize the way ads are displayed to reduce interference to users."
+        },
+        {
+          "id": "xfolder-011",
+          "category": "广告太多卸载",
+          "text": "Thank you for your feedback! We will re-evaluate the frequency of ad display and strive to provide users with a smoother and more user-friendly experience. We hope to have the opportunity to provide you with a better user experience in the future!"
+        },
+        {
+          "id": "xfolder-012",
+          "category": "离线广告",
+          "text": "Thank you for your feedback! We apologize for the problem with ad display. Ads in offline mode may indeed interfere with the user experience. We will optimize the ad logic to ensure less ad interference when offline. Thank you for your understanding and support, we will continue to work hard to improve the app!"
+        },
+        {
+          "id": "xfolder-013",
+          "category": "禁用广告",
+          "text": "Hello. We apologize for the inconvenience. The ad has been disabled. If you encounter rogue ads next time, you can report them to us by email. Just send a screenshot of the ad page and the app information page associated with the ad to filemanager.feedback@gmail.com. If you have any further questions, please feel free to contact us."
+        },
+        {
+          "id": "xfolder-014",
+          "category": "低俗广告",
+          "text": "Hello there! We apologize for the inconvenience caused by the ad you encountered. If you come across any such ads, please send the link of the app to filemanager.feedback@gmail.com. We will take action to ban vulgar ads. In the meantime, you can report such ads."
+        },
+        {
+          "id": "xfolder-015",
+          "category": "广告无法关闭",
+          "text": "Hello there! We apologize for the inconvenience caused by the ad you encountered. Normally, the \"X\" to close the ad appears automatically after a few seconds. Please wait a moment, then you can click it away. Thank you for trying us!"
+        },
+        {
+          "id": "xfolder-016",
+          "category": "广告无法关闭2",
+          "text": "很抱歉给您带来不便。如果广告的“×”按钮没有反应，请尝试从显示的位置稍微往下偏移一点进行点击。有时按钮的判定区域会被遮挡，点击稍微偏下的位置通常可以正常关闭。麻烦您尝试一下。"
+        },
+        {
+          "id": "xfolder-017",
+          "category": "广告太长了",
+          "text": "We’re sorry for the experience. Ads help us keep the app free and support our development team. We are working with ad providers to optimize the length and frequency to better balance user experience. Thank you for your understanding and patience!"
+        },
+        {
+          "id": "xfolder-018",
+          "category": "诱导下载广告",
+          "text": "We’re sorry for the concern. Please note these \"app installation prompts\" are misleading ads from third-party networks and are not caused by our app. We are working urgently to block these ads and resolve the issue. Your safety is our priority. Thank you for your patience!"
+        },
+        {
+          "id": "xfolder-019",
+          "category": "抱怨收费高",
+          "text": "Hi friend, so sorry for the charge. We will work hard to support more membership functions, it would be so generous if you can understand us, because we have to feed our team. Thanks a lot."
+        },
+        {
+          "id": "xfolder-020",
+          "category": "无法识别购买1",
+          "text": "Hi there. Please check all accounts signed into the Google Play Store and delete any accounts other than the one you purchased XFolder from. If you have only logged in with the account you used to make the purchase, you can try to clear the data(not cache) of Google Play. If the issue persists, do get back to us."
+        },
+        {
+          "id": "xfolder-021",
+          "category": "无法识别购买2",
+          "text": "Hi there. Please uninstall our app, temporarily remove all Google accounts except your purchasing account. Then, clear the data of the Google Play Store app and reinstall our app to restore premium access. You can safely re-add your other accounts afterwards."
+        },
+        {
+          "id": "xfolder-022",
+          "category": "在多个设备上识别购买",
+          "text": "Hi! To restore your premium purchase on another device, make sure you're ONLY logged into the Google Store with the Google account you used to purchase your premium membership. Then, please try clearing the Google Play's data and then reopening it.  You can log in to the same Google account on multiple devices. Hope this information helps."
+        },
+        {
+          "id": "xfolder-023",
+          "category": "建议",
+          "text": "Thanks for your suggestion. We have already taken it into great consideration. Please stay tuned and if you could rate 5 stars to support us, we will be very grateful. Thanks a lot in advance."
+        },
+        {
+          "id": "xfolder-024",
+          "category": "询问详细建议",
+          "text": "Hello there! Thank you so much for taking the time to give us your feedback. We'd love to hear more about your suggestion if you wouldn't mind sharing some additional details. And if you have any other suggestions, we're all ears! Don't hesitate to let us know."
+        },
+        {
+          "id": "xfolder-025",
+          "category": "抱怨没有这个功能",
+          "text": "Dear user, thank you for your feedback. Our team is constantly working to improve the app, and we will definitely consider adding this feature in a future update. Thank you for your patience and understanding."
+        },
+        {
+          "id": "xfolder-026",
+          "category": "建议已经提上日程",
+          "text": "Hi friend, Thank you for your feedback. Dropbox has been put into our plan. You can see it in version 1.5.0. Please stay tuned and if you are satisfied with our service, please rate 5 stars😊. Thanks a lot in advance.🙏."
+        },
+        {
+          "id": "xfolder-027",
+          "category": "建议已经在下一版本实现",
+          "text": "Thank you for your feedback. We have added batch rename extensions in version 1.4.8. However, it may take some time for the update to be pushed to your device. Please be patient and stay tuned for the update."
+        },
+        {
+          "id": "xfolder-028",
+          "category": "确实有问题",
+          "text": "Hello there! We apologize for the inconvenience caused by the bug. We've reported it to our developers and we're doing everything we can to optimize it. If you encounter any other problems, please don't hesitate to reach out to us. We're here to help!"
+        },
+        {
+          "id": "xfolder-029",
+          "category": "问题已在下版本修复",
+          "text": "Hi friend, sorry for the trouble. The problem has been resolved in version 1492. It will roll out in the following few days. Please stay tuned."
+        },
+        {
+          "id": "xfolder-030",
+          "category": "Android13无法复制文件到Android/data目录",
+          "text": "Hi friend, so sorry for the trouble. We apologize that due to Android 13 limitations, copying files to the Android/data directory is no longer allowed. Files can only be copied to the Android/data/package name directory. Thank you for your understanding."
+        },
+        {
+          "id": "xfolder-031",
+          "category": "Android13无法重命名和删除Android/data目录下的文件",
+          "text": "Dear user, we apologize for the inconvenience you are facing. Due to the limitations of Android 13, it is not possible to directly grant access to the Android/data or obb folders. Our app can only grant permission to individual package folders within the data folder, which prevents us from renaming or deleting files and folders in Android/data folders."
+        },
+        {
+          "id": "xfolder-032",
+          "category": "抱怨",
+          "text": "Hi friend. Sorry for the trouble. The problem has been reflected to our developer. If you have further suggestions, please feel free to let us know. It will help us to improve our app further. Thanks."
+        },
+        {
+          "id": "xfolder-033",
+          "category": "抱怨",
+          "text": "Please let us know if the problem is solved or not. Thanks."
+        },
+        {
+          "id": "xfolder-034",
+          "category": "抱怨Android data授权失败",
+          "text": "Dear user, sorry for the trouble. Due to recent Android security updates, access to the Android/data folder is restricted to protect your data. Unfortunately, we currently cannot offer a solution to bypass these restrictions. If you have any further questions or need additional assistance, please do not hesitate to contact us."
+        },
+        {
+          "id": "xfolder-035",
+          "category": "抱怨需要重置documents",
+          "text": "Dear user, thank you for your feedback. To address the issue you're encountering, please attempt clicking on \"replace\" upon receiving the prompt. This action should enable you to utilize the original version of the Documents app to grant Android/data permissions. Should you require additional assistance, please do not hesitate to contact us again."
+        },
+        {
+          "id": "xfolder-036",
+          "category": "询问有没有重置documents",
+          "text": "Hello! To help you better, I need some more information.\n1. What is the version of your Moto MyUI operating system? Is it version 6.0?\n2. Have you tried replacing the authorized app with the original factory version? Did the uninstall fail?\nI look forward to your responses so we can resolve this issue together."
+        },
+        {
+          "id": "xfolder-037",
+          "category": "三星抱怨Android/data授权失败",
+          "text": "Hello,\n\nSorry for the trouble. There seems to be an Android/Data authorization issue for Samsung OneUI 6.0 and above. Even reverting to the factory docUI version doesn't seem to solve the problem. Please be patient as we work to resolve this issue."
+        },
+        {
+          "id": "xfolder-038",
+          "category": "关闭清理通知提醒",
+          "text": "Hi friend, sorry for the trouble. If you don't like reminders, you can close it to reduce interruptions. You can turn off the switches of \"Clean\"-\"Junk Clean Reminder\" in the settings. Please let us know if the problem is solved or not. Thanks."
+        },
+        {
+          "id": "xfolder-039",
+          "category": "三星抱怨通知",
+          "text": "XFolder does not send excessive notifications, so it is unclear why Samsung's Device Care is marking XFolder for Excessive Alerts. You can remove XFolder from deep sleep in Settings > Battery > Background usage limits > Deep sleeping apps> XFolder > Click the Enable button at the bottom. Thank you for your understanding!"
+        },
+        {
+          "id": "xfolder-040",
+          "category": "关闭cleaner tab",
+          "text": "Hi friend, thanks for your feedback. You can turn off the switches in \"Clean\" - \"turn off Cleaner tab\" in the settings."
+        },
+        {
+          "id": "xfolder-041",
+          "category": "问题视屏1",
+          "text": "Hi friend. So sorry for the trouble. We can't reproduce your problem and do not understand what went wrong. Could you please record the problem as a video or some pictures and send us through filemanager.feedback@gmail.com? It is very important for us to solve the problem. Many thanks in advance."
+        },
+        {
+          "id": "xfolder-042",
+          "category": "问题视频2",
+          "text": "Thanks for reporting this issue! We tried to reproduce it but couldn’t. Could you please share a short screen recording showing how it happens? It will really help us identify and fix the problem. You can send the video to videostudio.feedback@gmail.com. After sending the email, please update your comment so we can check your video ASAP."
+        },
+        {
+          "id": "xfolder-043",
+          "category": "错误截图",
+          "text": "Is there a screenshot of the error?"
+        },
+        {
+          "id": "xfolder-044",
+          "category": "ru",
+          "text": "Oчистить и ускорить-Разрешения-\"Специальные возможности и т. п.\""
+        },
+        {
+          "id": "xfolder-045",
+          "category": "加速原理",
+          "text": "Hi friend. thanks for your feedback. By cleaning up the background application process and free memory. If you want to do a deep cleanup, you can go to the settings page and open Clean & Boost-Permission-\"Accessibility. Etc.\" . If you are satisfied with our app, please rate 5 stars😊."
+        },
+        {
+          "id": "xfolder-046",
+          "category": "询问copy相关的详细信息",
+          "text": "Hi friend, sorry for the trouble. Can you tell me where to move from? Move from local storage to SD card? How many files have been moved and what is their total size? What path to move to in the SD card? Your help means a lot to us to solve the problem. Many thanks in advance. 🙏"
+        },
+        {
+          "id": "xfolder-047",
+          "category": "sd卡重新授权1",
+          "text": "Hi friend, sorry for the trouble. This issue may occur when the app does not have permission to write to the SD card. We recommend clearing XFolder's app data and then granting it permission to access the SD card again. This should resolve the problem."
+        },
+        {
+          "id": "xfolder-048",
+          "category": "sd卡重新授权2",
+          "text": "Please try reauthorizing the SD card by following these steps:\n\n1. Clear XFolder's app data.\n2. Copy files to SD card.\n3. Authorize SD card in the root path.\nIf you encounter any difficulties or need further assistance, please don't hesitate to reach out for help."
+        },
+        {
+          "id": "xfolder-049",
+          "category": "关闭工具栏",
+          "text": "Hi friend, thanks for your feedback. You can turn off the switches in \"notification bar\" and \"notification reminders\" in the settings. If you have further suggestions, please feel free to let us know. It will help us to improve our app further. Thanks."
+        },
+        {
+          "id": "xfolder-050",
+          "category": "如何删除重复文件",
+          "text": "Hi friend, sorry for the trouble. You can find the duplicate file function in \"Analysis\". If you are satisfied with our app, please rate 5 stars😊."
+        },
+        {
+          "id": "xfolder-051",
+          "category": "重复文件选择",
+          "text": "Hi friend, thanks for your feedback. You can click on the \"smart select\" button in the upper right corner of the duplicate files list to choose to keep either the newest or the oldest files. However, we still recommend double-checking the selected files after the automatic selection to avoid accidental deletions."
+        },
+        {
+          "id": "xfolder-052",
+          "category": "觉得排序有问题/取消置顶",
+          "text": "Hi friend, sorry for the trouble. We set the top of these three folders of DCIM/Documents/Download by default, and you can select one folder then \"unpin from top\". Please let us know if the problem is solved or not. Thanks."
+        },
+        {
+          "id": "xfolder-053",
+          "category": "觉得排序有问题/取消置顶",
+          "text": "Please let us know if the problem is solved or not. Thanks."
+        },
+        {
+          "id": "xfolder-054",
+          "category": "谷歌云盘安全警告解释",
+          "text": "Hi Tony, So sorry for making you feel unsecure. We are not sure which warning you met. Do you mean a secure reminder email when your first log in Google Cloud Drive? If it is, please don't worry and it's just Google secure reminder when you log in with not Google App. We promise that we won't spy your anything. If not, please tell us more details."
+        },
+        {
+          "id": "xfolder-055",
+          "category": "问题已经在新版本中解决",
+          "text": "Hi friend, so sorry for the trouble. We have fixed this issue through the latest version (1203). It will roll out in the following few days. Please stay tuned. If you have further problems, please feel free to let us know."
+        },
+        {
+          "id": "xfolder-056",
+          "category": "USB读取失败",
+          "text": "Hi friend, sorry for the trouble. If the USB access is abnormal, it is recommended to restart the phone while keeping the USB plugged in, and then you can access the files in the USB normally. If you have further problems, please feel free to let us know."
+        },
+        {
+          "id": "xfolder-057",
+          "category": "询问外部存储是什么",
+          "text": "Hi, friend, sorry for the trouble. Does flash drive refer to SD card, USB, or External Hard Drive?"
+        },
+        {
+          "id": "xfolder-058",
+          "category": "usb相关",
+          "text": "I would like to know some information that will help us solve the problem: \n1. Whether the USB is recognized by the pad.\n2. Whether the USB Device is displayed on the home page of XFolder, and whether to authorize the ROOT directory of the USB Device. \n3. Format of USB (NTFS/exfat/fat32)"
+        },
+        {
+          "id": "xfolder-059",
+          "category": "usb相关2",
+          "text": "Hi friend, sorry for the trouble. I would like to know some information that will help us solve the problem: \n1. Whether to authorize the ROOT directory of the USB Device. \n2. Format of USB (NTFS/exfat/fat32)\n3. It would be better if you can send us a screenshot of the task failed pop-up window, you can contact us through filemanager.feedback@gmail.com."
+        },
+        {
+          "id": "xfolder-060",
+          "category": "usb相关3",
+          "text": "Hi friend, sorry for the trouble. If there is too much usb content (1TB), the reading speed may be slow, please wait patiently. If you have further problems, please feel free to let us know."
+        },
+        {
+          "id": "xfolder-061",
+          "category": "确实有bug",
+          "text": "Hi, friend, sorry for trouble. We have reported this bug to our developer and optimize it as possible as we can. If you have other problems, please feel free to let us know."
+        },
+        {
+          "id": "xfolder-062",
+          "category": "smb不能连接询问详情",
+          "text": "Hi Nevaran, sorry for the trouble. If the problem is the failure of anonymous login to windows's smb server, this problem will be solved in version 121. If not, please tell me your server type (windows/linux/mac), login method (account password / anonymous / guest), other information (domain), which is very helpful for us to find and solve problems."
+        },
+        {
+          "id": "xfolder-063",
+          "category": "smb匿名和访客登录",
+          "text": "Hello, I am sorry to cause you trouble. If you have set up anonymous login on the server, you can check \"Anonymous\" and do not need to enter a username and password. If you have set up guest login, you only need to enter \"guest\" in the username field and you can log in to the smb server without entering a password."
+        },
+        {
+          "id": "xfolder-064",
+          "category": "询问设备型号，安卓版本，应用版本",
+          "text": "Hi, friend, sorry for the trouble.  What is your device model and Android system version? What is the version of XFolder? If you have other problems, please feel free to let us know."
+        },
+        {
+          "id": "xfolder-065",
+          "category": "清理误删询问具体文件",
+          "text": "Hi friend, so sorry for the trouble. It may be deleted as \"app cache\" or \"residual junk\" during junk clean. What files have been deleted? Where is the storage path of the file? Or which app do these files belong to? It is very important for us to solve the problem. Many thanks in advance."
+        },
+        {
+          "id": "xfolder-066",
+          "category": "抱怨误删文件1",
+          "text": "Hi friend, so sorry for the trouble. When you clean junk files, you should pay attention to the check boxes of \"app cache\" and \"residual junk\", otherwise it is easy to delete by mistake. You can add app with important files to the \"Clean Whitelist\" so that you don't delete files by mistake. If you have other problems, please feel free to let us know."
+        },
+        {
+          "id": "xfolder-067",
+          "category": "抱怨误删文件2",
+          "text": "嗨，朋友，很抱歉给你带来麻烦。是哪个app的文件被误删了？另外你可以把常用app添加到清理白名单，这样可以避免误删。如果你还有什么问题，请随时告诉我们。"
+        },
+        {
+          "id": "xfolder-068",
+          "category": "不断评分",
+          "text": "Hi, friend, I'm really sorry that if it disrupted you. Just give five stars when the pop-up window pops up, then click \"rate on google play\" and it never shows t you again. And we will optimize the scoring module in the next version."
+        },
+        {
+          "id": "xfolder-069",
+          "category": "抱怨评分",
+          "text": "Hi, friend, I'm really sorry that if it disrupted you. The rating prompt is meant to gather feedback, but it shouldn't feel intrusive. We appreciate your input and will consider it for future improvements. Thank you for sharing your thoughts!"
+        },
+        {
+          "id": "xfolder-070",
+          "category": "询问详细建议",
+          "text": "Hi friend, thanks for your feedback. Can you give us more details about your suggestion? If you have other suggestions, please feel free to let us know."
+        },
+        {
+          "id": "xfolder-071",
+          "category": "求五星",
+          "text": "if you are satisfied with our app, please rate 5 stars😊."
+        },
+        {
+          "id": "xfolder-072",
+          "category": "all files中显示的文件和storage显示文件大小不一致",
+          "text": "Hi friend, So sorry for the trouble. We do not have permission to view the system firmware, we will only show the actual space available to the user. And we only display files that users can manipulate in all files, for example, there are no files in the Android data folder in all files.We'd be grateful if you could give us 5 stars, it'll inspire us to get better. Best regards. 🌹"
+        },
+        {
+          "id": "xfolder-073",
+          "category": "storage已使用大小显示错误",
+          "text": "Hi there, thanks for getting in touch. Part of your phone's storage is occupied by the operating system and preinstalled applications. This space is not available for user storage, so the available space you see is less than the total capacity. If you find our assistance helpful, we kindly ask for a 5-star rating. Thank you! 🌹"
+        },
+        {
+          "id": "xfolder-074",
+          "category": "翻译有误",
+          "text": "Hi friend, sorry for the trouble. Is there a mistake in our translation? You can contact us to correct it by email. Our email address is filemanager.feedback@gmail.com. Many thanks in advance."
+        },
+        {
+          "id": "xfolder-075",
+          "category": "看不到telegram的文件",
+          "text": "Hi friend. You can go to the internal storage/Telegram folder to view the files saved by telegram. If you want the files to be displayed in image/audio/video, you need to turn on the \"show hidden files\" switch and delete the \".nomedia\" files in the Telegram folder.  If you are satisfied with our app, please rate 5 stars😊."
+        },
+        {
+          "id": "xfolder-076",
+          "category": "看不到telegram的文件2",
+          "text": "Hi friend. You can go to the internal Android/data/org.telegram.messenger/files/Telegram to view the files saved by telegram. If you are satisfied with our app, please rate 5 stars😊."
+        },
+        {
+          "id": "xfolder-077",
+          "category": "看不到telegram的文件3",
+          "text": "Hi friend. You can go to the internal storage/Movies/Telegram folder to view the video files saved by telegram. If you are satisfied with our app, please rate 5 stars😊."
+        },
+        {
+          "id": "xfolder-078",
+          "category": "看不到telegram文件4",
+          "text": "Hello, thanks for your feedback. By default, Telegram stores downloaded files in the phone's internal storage. The directory paths are usually: Pictures/Telegram, Music/Telegram, Movies/Telegram, Downloads/Telegram. If you have further questions, please feel free to contact us."
+        },
+        {
+          "id": "xfolder-079",
+          "category": "通过邮件联系我们发送旧版本",
+          "text": "Hi friend, sorry for the trouble. You can reach out to us via email, and we'll send you the older version. Our email address is filemanager.feedback@gmail.com."
+        },
+        {
+          "id": "xfolder-080",
+          "category": "bug将在下版本修改",
+          "text": "Hi friend, thanks for your feedback. We will fix this function in the next version. Please stay tuned. If you have further problems, please feel free to let us know."
+        },
+        {
+          "id": "xfolder-081",
+          "category": "长按滑动多选",
+          "text": "Hi friend. thanks for your feedback. We support multiple selections by long pressing and sliding. If you are satisfied with our app, please rate 5 stars😊."
+        },
+        {
+          "id": "xfolder-082",
+          "category": "sd卡相关",
+          "text": "I would like to know some information that will help us solve the problem: \n1. Whether the SD card is recognized by the phone. If it is not supported, it will indicate that the SD card is damaged. \n2. Whether the SD card is displayed on the home page of XFolder, and whether to authorize the ROOT directory of the SD card. \n3. Size and format of SD card (NTFS/exfat/fat32)\nUsually in this case, clear the application data and re-authorize to use the SD card normally."
+        },
+        {
+          "id": "xfolder-083",
+          "category": "sd卡相关2",
+          "text": "Hi friend, sorry for the trouble. Could you tell me its Size and format (NTFS/exfat/fat32)? If it is in fat32 only supports transferring files smaller than 4gb, if it is in exfat format, there is no size limit.  If you have further problems, please feel free to let us know."
+        },
+        {
+          "id": "xfolder-084",
+          "category": "sd卡相关3",
+          "text": "Hi there! Sorry to hear that. Can you provide more details on the error message you receive when trying to move the files to the SD card? This will help us better understand the issue and provide a solution. Thank you!"
+        },
+        {
+          "id": "xfolder-085",
+          "category": "无法移动文件到sd卡",
+          "text": "Hello. Yes, it's possible to move files, but it requires your prior authorization. The 'Copy Error' message appears because we don't have permission to write to your SD card. Please follow the on-screen instructions to grant access to the SD card, and you'll be able to move the files without any problems."
+        },
+        {
+          "id": "xfolder-086",
+          "category": "显示隐藏文件夹",
+          "text": "Hi friend. Thanks for your feedback. You can open the \"show hidden files\" option on the settings page.  If you are satisfied with our app, please rate 5 stars😊."
+        },
+        {
+          "id": "xfolder-087",
+          "category": "不显示隐藏文件夹",
+          "text": "Hi friend. Thanks for your feedback. You can turn off the \"show hidden files\" option on the settings page.  If you are satisfied with our app, please rate 5 stars😊."
+        },
+        {
+          "id": "xfolder-088",
+          "category": "不显示新文件",
+          "text": "Hi friend. Thanks for your feedback. You can turn off the \"show new files\" option on the settings page.  If you are satisfied with our app, please rate 5 stars😊."
+        },
+        {
+          "id": "xfolder-089",
+          "category": "split",
+          "text": "Hi friend, thanks for your feedback. If you backup app and generate base.apk and split_xxx.apk files, you need to go to Google Store to download \"split apk installer\" to install."
+        },
+        {
+          "id": "xfolder-090",
+          "category": "manage on pc相关",
+          "text": "Hi friend, so sorry for the trouble. Did you say \"manage on PC\"? You need to enter URL in the address bar of your computer's File Explorer. Please let us know if the problem is solved or not. Thanks."
+        },
+        {
+          "id": "xfolder-091",
+          "category": "抱怨没有ftp",
+          "text": "Hello,\n\nThanks for your feedback. We already provide the ability to connect from your phone to your computer through the FTP function. If you click the \"More\" button on the app's home page, you'll find \"Manage from PC\" features. This allows you to easily share and manage files with your computer.\n\nIf you need more help or have any other questions, please don't hesitate to contact us. We are here to help."
+        },
+        {
+          "id": "xfolder-092",
+          "category": "播放视频always不生效",
+          "text": "Hi friend, sorry for the trouble. You can go to the settings page to close the built-in video player, so that you can use another player to open the video every time. Please let us know if the problem is solved or not. Thanks."
+        },
+        {
+          "id": "xfolder-093",
+          "category": "文本编辑always不生效",
+          "text": "Hi, friend, thanks for your feedback. You need to go to the settings page to turn off the built-in text editor so that you can open the txt file with your desired editor every time. Please let us know if the problem has been solved. Thank you."
+        },
+        {
+          "id": "xfolder-094",
+          "category": "清除默认",
+          "text": "Thank you for reaching out to us and for your feedback. Please navigate to the settings page, then find \"General\" and tap on \"Clear Default\". This should allow you to choose your preferred app when opening files."
+        },
+        {
+          "id": "xfolder-095",
+          "category": "查看图片always不生效",
+          "text": "Hi friend, thanks for your feedback. You need to go to the settings page to close the built-in image viewer, then you can use other app to open the image every time. If it doesn't work, please find \"general\"-\"clear default\" in the settings page, clear the default open app, and then try \"open with\"-\"always\" again. Please let us know if the problem is solved or not. Thanks."
+        },
+        {
+          "id": "xfolder-096",
+          "category": "播放音乐always不生效1",
+          "text": "Thank you for your feedback! You can try disabling the \"Built-in Music Player\" option in the settings, and then select \"Always\" when prompted to choose a music player to use. This should resolve the issue you experienced. If you have any other questions or concerns, please don't hesitate to reach out to us."
+        },
+        {
+          "id": "xfolder-097",
+          "category": "播放音乐always不生效2",
+          "text": "Dear user,\n\nThank you for contacting us regarding the issue you encountered with playing your MP3 library. We recommend trying the following solution:\n\n1. Open XFolder's settings page.\n2. Disable the \"Built-in Music Player\" option.\n3. Choose a music player you want when playing music.\n4. Click \"always\"\nThis should resolve the issue you experienced. If you have any other questions or concerns, please don't hesitate to reach out to us.\n\nBest regards,\n[Your Name]"
+        },
+        {
+          "id": "xfolder-098",
+          "category": "找不到垃圾桶",
+          "text": "Hi friend, thanks for your feedback. Find \"more\" in the shortcut area and click in to see \"recycle bin\". If you can't find it, slide to the left in the shortcut area and you will see \"more\". Please let us know if the problem is solved or not. Thanks."
+        },
+        {
+          "id": "xfolder-099",
+          "category": "抱怨降低速度",
+          "text": "Hi, friend, sorry for the trouble. XFolder won't slow down the phone. And maybe you can try to close your apps running in the background. Hope it can solve your problem. Thanks for your feedback."
+        },
+        {
+          "id": "xfolder-100",
+          "category": "安全文件夹里的文件不显示1",
+          "text": "Hi friend, sorry for the trouble.\nIf the file saved to Safe Folder is not displayed, please go to FileManager/.SafeFolder/data to see if your file exists, and if so, you can move the file to another folder so that you can restore the file. As long as this folder is not deleted, even if XFolder is uninstalled, there is still a chance to restore the file."
+        },
+        {
+          "id": "xfolder-101",
+          "category": "安全文件夹里的文件不显示2",
+          "text": "Dear friend,\n\nI apologize for the inconvenience caused. If you are unable to see the file saved to Safe Folder, please navigate to FileManager/.SafeFolder/data to check if your file exists. If it does, you can move the file to another folder to restore it.\n\nPlease let me know if you have any further questions or concerns.\n\nBest regards,\nXFolder Team"
+        },
+        {
+          "id": "xfolder-102",
+          "category": "安全文件夹移出失败1",
+          "text": "Hi Teddy,\n\nThe failure to move may be because the original storage path of the file is an SD card, and this SD card has been unmounted. Please go to FileManager/.SafeFolder/data to move your files to another folder in internal storage so that you can restore the files.\n\nHope it can solve your problem."
+        },
+        {
+          "id": "xfolder-103",
+          "category": "安全文件夹移出失败2",
+          "text": "Please follow the steps below:\n1. Click \"Internal storage\" on the XFolder homepage\n2. Navigate to the \"FileManager\" folder\n3. Click \"...\" in the upper right corner and check the \"show hidden files\" option\n4. Click the folder \".SafeFolder\"\n5. Find the folder name like \"1724785321511\", select this folder, and use \"move to\" to move it to the \"Download\" folder\nHope this helps! Let us know if you have any other questions or concerns."
+        },
+        {
+          "id": "xfolder-104",
+          "category": "安全文件夹移出",
+          "text": "Hi there, to move files out of the Safe Folder, you can follow these steps:\n1. Find the Safe Folder and select the files you want to move out.\n2. Click on the \"Move out\" button at the bottom of the screen, and the files will be moved back to their original location.\n3. If the move-out fails, you can manually move the files to another folder by navigating to FileManager/.SafeFolder/data in the app.\nHope this helps! Let us know if you have any other questions or concerns."
+        },
+        {
+          "id": "xfolder-105",
+          "category": "安全文件夹中的文件无法打开",
+          "text": "Hi friend, thanks for your feedback. Files are encrypted when they are moved to safe folder so cannot be opened by a third-party app. If you want to open it using a third-party app, you must move the files out of safe folder.  If you have further problems, please feel free to let us know."
+        },
+        {
+          "id": "xfolder-106",
+          "category": "安全文件夹找回密码",
+          "text": "谢谢你的提问。如果您在收件箱中没有看到安全文件夹密码消息，请检查您的“junk”或“spam”文件夹。如果未找到该消息，请告知我们，我们将尽力为您提供进一步帮助。"
+        },
+        {
+          "id": "xfolder-107",
+          "category": "安全文件夹入口",
+          "text": "Hi friend, thanks for your feedback. Find \"more\" in the shortcut area and click in to see \"safe folder\". If you can't find it, slide to the left in the shortcut area and you will see \"more\". Please let us know if the problem is solved or not. Thanks."
+        },
+        {
+          "id": "xfolder-108",
+          "category": "解释all files权限",
+          "text": "Hello. Due to security policy updates for Android 11 and later versions, you need to enable \"AII Files Access\" permission to access all your files. Without all files permission, you can only access media files like video, audio, image. We won't do anything without your consent."
+        },
+        {
+          "id": "xfolder-109",
+          "category": "9系统及以下sd卡怎么授权",
+          "text": "Hi friend, please follow these steps for authorization:\n1. Tap \"Allow\";\n2. Make sure the directory title is SD card. If not, tap menu button and switch to SD card;\n3. Tap \"Select\";"
+        },
+        {
+          "id": "xfolder-110",
+          "category": "添加快捷方式到桌面",
+          "text": "Hi there, thank you for your feedback!\nTo do this, please select a single file or folder, tap 'More', and select 'Add to home screen'.\nIf you have done this but still can't find the shortcut on your home screen, you may need to check your device settings. Please go to 'App Info' for XFolder, find 'Permission Management', and grant the 'Desktop Shortcut' permission.\nHope this helps! Please let us know if you have any other questions."
+        },
+        {
+          "id": "xfolder-111",
+          "category": "oppo授予创建快捷方式权限",
+          "text": "Hi friend, thanks for your feedback. To grant permission for creating desktop shortcuts, please follow these steps: 1. Open Settings. 2. Find \"Security\". 3. Tap \"Permissions\". 4. Select the \"Permissions\" tab. 5. Look for the \"Create Desktop Shortcuts\" permission and grant XFolder this permission. After this, you should be able to create shortcuts on your desktop."
+        },
+        {
+          "id": "xfolder-112",
+          "category": "解释网络权限",
+          "text": "Hi, friend, thanks for your feedback. Our app strictly adheres to security and privacy policies and does not perform any unauthorized data transfer. XFolder only requires a network connection when using \"Cloud\" and \"Local Network\". If you have any other questions, please feel free to give us feedback!"
+        },
+        {
+          "id": "xfolder-113",
+          "category": "回答收费相关问题1",
+          "text": "Hello there! With XFolder, you only need to make a one-time purchase and enjoy its benefits forever, without any recurring annual or monthly fees. The price is xx. The default price does not include tax. The tax is 21%. Hope it helps."
+        },
+        {
+          "id": "xfolder-114",
+          "category": "回答收费相关问题2",
+          "text": "Dear [Name],\n\nThank you for your interest in XFolder. We are glad to inform you that XFolder is available for a one-time purchase with no annual or monthly fees. The price for XFolder is XX, and it is effective forever. Please note that the default price does not include tax, which is 21%.\n\nIf you have any further questions or concerns, please do not hesitate to contact us.\n\nBest regards,\nXFolder Team"
+        },
+        {
+          "id": "xfolder-115",
+          "category": "快捷方式内容显示不出来",
+          "text": "Hi friend, sorry for the trouble. What is the total size and number of your video files? It will take more time to load at the first time, but faster at the second time. If you have other problems, please feel free to let us know."
+        },
+        {
+          "id": "xfolder-116",
+          "category": "杀毒软件说我们有问题",
+          "text": "Hi friend, so sorry for making you feel unsecure. We are not sure which antivirus application you are using. We promise that we won't spy your anything.  If you have other problems, please feel free to let us know."
+        },
+        {
+          "id": "xfolder-117",
+          "category": "为什么本地图标和商店图标不一致",
+          "text": "Hi friend, thanks for your feedback. The icons are different because we are experimenting with icons. The XFolder in the local name is the brand name. If you have other problems, please feel free to let us know."
+        },
+        {
+          "id": "xfolder-118",
+          "category": "将应用程序移动到sd卡",
+          "text": "Hi friend. Thanks for your feedback. Google stopped providing the possibility to move apps to an SD card to secure the security and the privacy in Android 6. We'd be grateful if you could give us 5 stars, it'll inspire us to get better. Best regards. 🌹"
+        },
+        {
+          "id": "xfolder-119",
+          "category": "将应用程序移动到sd卡",
+          "text": "Hi friend. Thanks for your feedback. You need to go to \"developer options\" to open the \"force allow apps on external\" option, then on the \"app info\" page, find \"storage\", click \"change\", and select \"SD card\". We'd be grateful if you could give us 5 stars, it'll inspire us to get better. Best regards. 🌹"
+        },
+        {
+          "id": "xfolder-120",
+          "category": "没有xx语言",
+          "text": "Hello there! Thank you for your feedback. We will consider adding Polish. If you have any other issues or concerns, please don't hesitate to reach out to us."
+        },
+        {
+          "id": "xfolder-121",
+          "category": "乌克兰语",
+          "text": "Thank you for your feedback. We understand your expectations for adding support for the Ukrainian language. We are constantly working to add more language support to our application, but this takes time and resources. We will consider adding Ukrainian language support and provide an update as soon as possible. Thank you for your patience and support."
+        },
+        {
+          "id": "xfolder-122",
+          "category": "授予在桌面创建快捷方式权限",
+          "text": "You need to find Permissions in XFolder's App info page, and then grant \"Home screen shortcuts\" permission."
+        },
+        {
+          "id": "xfolder-123",
+          "category": "hide list在哪",
+          "text": "Hello there! Thank you for your feedback. You can go to the settings page to find \"General\"-\"Hide list\", where you can see hidden files and folders. Please let us know if the problem is solved or not. Thanks."
+        },
+        {
+          "id": "xfolder-124",
+          "category": "hide是什么意思",
+          "text": "Thank you for your feedback! The \"Hide\" option makes the files invisible only within XFolder. If you want to make files invisible in other apps as well, we recommend using the \"Move to Safe folder\" feature. Let us know if you need further assistance."
+        },
+        {
+          "id": "xfolder-125",
+          "category": "推荐用户使用hide功能",
+          "text": "If you don’t want WhatsApp files to appear on the first page, please hide the WhatsApp folder by following these steps:\n\n1. Select the WhatsApp folder.\n2. Tap More.\n3. Choose Hide.\n\nAfter that, XFolder will no longer display the contents of that folder."
+        },
+        {
+          "id": "xfolder-126",
+          "category": "设置永久删除",
+          "text": "Hello there! Thank you for your feedback. You can go to the settings page to find \"General\"-\"Delete setting by default\", then change to \"delete permanently\". Please let us know if the problem is solved or not. Thanks."
+        },
+        {
+          "id": "xfolder-127",
+          "category": "对文件夹按大小进行排序",
+          "text": "Thank you for your feedback. You can click the \"more\" option in the upper right corner to find \"analyze current directory\" so that you can sort the folders in that directory by size. Please let us know if the problem is solved or not. Thanks."
+        },
+        {
+          "id": "xfolder-128",
+          "category": "不显示文件夹大小",
+          "text": "Thank you for your feedback. You can click the \"more\" option in the upper right corner to find \"analyze current directory\" so that you can see the size of the folders in the current directory. Please let us know if the problem is solved or not. Thanks."
+        },
+        {
+          "id": "xfolder-129",
+          "category": "不显示文件夹大小",
+          "text": "Проанализировать текущий каталог"
+        },
+        {
+          "id": "xfolder-130",
+          "category": "不喜欢应用名字",
+          "text": "Hi there! We're sorry to hear that you didn't like our app's name. Could you please let us know how we can improve it? We'd really appreciate your feedback. Thanks!"
+        },
+        {
+          "id": "xfolder-131",
+          "category": "应用名字太长",
+          "text": "Thank you for your feedback on our app's name length. We appreciate your suggestion and will consider it. Let us know if you have any other comments. Thanks!"
+        },
+        {
+          "id": "xfolder-132",
+          "category": "快捷方式不显示全部格式",
+          "text": "I'm sorry for the confusion. The quick access area only displays commonly used file formats. Please check your files in the local storage for the full list of files. Let me know if you need further assistance."
+        },
+        {
+          "id": "xfolder-133",
+          "category": "手动授予存储权限",
+          "text": "Here are the steps to manually grant storage permission:\n\n1. Click \"Open settings\".\n2. Find \"Permissions\" or \"App permissions.\"\n3. Toggle on the \"Storage\" permission.\n4. Restart the app and try accessing storage again.\nLet me know if you have any other questions or concerns."
+        },
+        {
+          "id": "xfolder-134",
+          "category": "用户说我们不安全",
+          "text": "Hi there, we apologize for any concerns about privacy. We assure you that we do not spy on any of your data. If you have any other issues or concerns, please don't hesitate to let us know."
+        },
+        {
+          "id": "xfolder-135",
+          "category": "抱怨清理功能少了",
+          "text": "Dear user, we had to remove \"Boost, Battery Saver, and CPU Cooler\" due to a Google security policy update. We apologize for any inconvenience and thank you for your continued support. Contact us if you have any questions."
+        },
+        {
+          "id": "xfolder-136",
+          "category": "更多云服务",
+          "text": "Thank you for feedback! We are constantly working on adding support for more cloud storage services, and we'll definitely keep your suggestion in mind. Stay tuned for future updates!"
+        },
+        {
+          "id": "xfolder-137",
+          "category": "抱怨加载速度慢",
+          "text": "We apologize for the slow loading of images, music, and videos. Please be patient during the initial loading as it may take some time. After the initial loading, the subsequent ones will not be as slow."
+        },
+        {
+          "id": "xfolder-138",
+          "category": "抱怨打开速度慢\nsplash",
+          "text": "Hello,\n\nWe apologize for the inconvenience and understand your frustration. We are working hard to improve the speed of the app. Thank you for your patience and feedback."
+        },
+        {
+          "id": "xfolder-139",
+          "category": "移动后没有删除源文件，询问详细信息",
+          "text": "Dear user, thank you for contacting us. Can you please provide us with more details about the issue you are facing? Did you use the \"cut\" or \"move to\" function and from where to where did you try to move the files? If there are any files that failed to move, any original files will not be deleted. Looking forward to your reply."
+        },
+        {
+          "id": "xfolder-140",
+          "category": "创建本地用户账户",
+          "text": "Dear Sylvie,\n\nI hope this email finds you well. As per your request, I have prepared a step-by-step guide on how to create a local user account on your Windows 10 machine.\n\n1. Go to Settings by clicking on the Start menu and then on the gear icon.\n2. Click on Accounts.\n3. Click on Family & other users from the left-hand menu.\n4. Click on Add someone else to this PC.\n5. Select \"I don't have this person's sign-in information\" and then click on \"Add a user without a Microsoft account\".\n6. Follow the prompts to create the local user account.\n\nI hope you find this guide helpful. If you have any further questions or concerns, please do not hesitate to reach out to me.\n\nBest regards,\n\nXFolder Team"
+        },
+        {
+          "id": "xfolder-141",
+          "category": "WhatsApp存储文件的路径",
+          "text": "The correct path to locate the files received on WhatsApp on Android devices is \"Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Documents\". From there, you can access the files that you have received on WhatsApp. Let me know if you have any other questions."
+        },
+        {
+          "id": "xfolder-142",
+          "category": "clean扫描出来的文件太少了",
+          "text": "We apologize for any inconvenience caused. Our app may not detect all files and folders on your device due to system restrictions. We suggest trying other storage cleaning apps or manually checking your device's storage settings. We appreciate your feedback and will continue to work on improving our app's functionality."
+        },
+        {
+          "id": "xfolder-143",
+          "category": "无法访问usb",
+          "text": "We apologize for the inconvenience you are experiencing in accessing your OTG device on Android 13. We suggest restarting your device and granting OTG access again. This should help resolve the issue. Let us know if you continue to face any problems."
+        },
+        {
+          "id": "xfolder-144",
+          "category": "询问具体的设备型号的安卓系统",
+          "text": "Dear Heino,\n\nThank you for reaching out to us. To better assist you, could you please let us know the model of your phone and the Android version you are currently using? This information will help us identify the issue.\n\nWe look forward to hearing from you.\n\nBest regards,\nXFolder Team"
+        },
+        {
+          "id": "xfolder-145",
+          "category": "谷歌网盘不显示文件1",
+          "text": "Please try removing your Google Drive account from the \"Cloud\" page and then add it back. During the authorization process, make sure to select the option \"see, edit, create, and delete only the specific Google Drive files you use with this app.\" This should enable the app to display your Google Drive files uploaded via XFolder.\nDue to Google policy updates, only files uploaded via XFolder are accessible. If you want to view all files, please click \"view all files\", open and log in with Chrome browser to view all files."
+        },
+        {
+          "id": "xfolder-146",
+          "category": "谷歌网盘不显示文件2",
+          "text": "Dear User,\n\nIf your Google Drive files are not appearing or you are experiencing upload failures, please try removing your Google Drive account from the \"Cloud\" page and then adding it back. During the authorization process, kindly ensure that you select the option \"see, edit, create, and delete only the specific Google Drive files you use with this app.\"\n\nThis should help resolve the issue. If you continue to experience any difficulties, please feel free to reach out.\n\nBest regards,\n\nXFolder Team"
+        },
+        {
+          "id": "xfolder-147",
+          "category": "谷歌网盘升级后1",
+          "text": "Dear User,\n\nWe sincerely apologize for any inconvenience this may have caused.\n\nCould you please try removing your Google Drive account from the \"Cloud\" page and then adding it back? During the authorization process, kindly ensure that you select the option \"see, edit, create, and delete only the specific Google Drive files you use with this app.\" This should allow the app to display your Google Drive files uploaded via XFolder.\n\nDue to recent Google policy updates, only files uploaded via XFolder are accessible within the app. If you need to view all your Google Drive files, please click \"View all files\", then open the link and log in using the Chrome browser.\n\nWe appreciate your patience and understanding. Please feel free to reach out if you need further assistance.\n\nBest regards,\n\nXFolder Team"
+        },
+        {
+          "id": "xfolder-148",
+          "category": "谷歌网盘升级后2",
+          "text": "Dear User. Due to recent Google policy updates, only files uploaded via XFolder are accessible within the app. If you need to view all your Google Drive files, please click \"View all files\", then open the link and log in using the Chrome browser. We appreciate your patience and understanding."
+        },
+        {
+          "id": "xfolder-149",
+          "category": "13系统授予通知权限",
+          "text": "Thank you for your feedback. Have you granted notification permissions to our app? You can find the \"notifications\" option in the app info page, and then turn on the \"allow notifications\" option. This way, you can return to the copy progress dialog by tapping the notification in the notification bar when copying files in the background."
+        },
+        {
+          "id": "xfolder-150",
+          "category": "smb使用教程",
+          "text": "Dear user,\n\nWe support smb1.0 and smb2.0. Does it prompt \"Account verification failed\" when logging in? The username and password is strictly case-sensitive. Please make sure is correct.\nWe don't know how your windows server is configured, please tell us the steps of your configuration if you can. You can configure the windows server by following these steps:\nPlease enable the smbv1 protocol first：\n1. Open Control Panel.\n2. Click on Programs.\n3. Click on Turn Windows features on or off link.\n4. Expand the SMB 1.0/CIFS File Sharing Support option.\n5. Check the SMB 1.0/CIFS Client option.\n6. Click the OK button.\n7. Click the Restart now button.\n\nThen type the command in windows power shell(Run as an administrator) to create a new user：\nnet user username password /add\ne.g. net user Jack 123456 /add\n\nFinally, right-click or press a file, select Give access to > Specific people. Grant access to the user you just created.\n\nHope our reply can solve your problem, if you have any further questions, please feel free to contact us."
+        },
+        {
+          "id": "xfolder-151",
+          "category": "创建文件夹/SD卡不识别",
+          "text": "Hi Athan, if your phone is not recognizing the SD card, then the app won't be able to see it either. To create a new folder using the app, go to the internal storage page and tap the \"...\" symbol in the top right corner. From there, you should see an option to \"Create Folder\". Let us know if you have any other questions or concerns!"
+        },
+        {
+          "id": "xfolder-152",
+          "category": "建议用户更新到最新版本，看问题是否还存在",
+          "text": "Thank you for your feedback. We recommend updating to the latest version 1492 to see if the issue persists. If you still encounter difficulties after updating, please let us know, and we'll do our best to assist you further."
+        },
+        {
+          "id": "xfolder-153",
+          "category": "清除缓存",
+          "text": "Hi there,\n\nIt seems like there might be a cache issue causing the app to not display the new files properly. You can try deleting the \"FileManager/Cache\" folder and then relaunching the app. Please note that the first-time loading after clearing the cache may take some time, so please be patient and wait for a while.\n\nIf the issue persists, please let us know, and we'll do our best to assist you further. Thank you for your understanding.\n\nBest regards."
+        },
+        {
+          "id": "xfolder-154",
+          "category": "关闭通知",
+          "text": "Thank you for sharing your feedback and suggestions. Regarding your concerns: The notification sounds when moving files can be disabled. You can go to the \"App Info\" page of XFolder, then navigate to \"Notifications\" and \"Notification Categories.\" From there, you can adjust the settings and disable the notification sounds."
+        },
+        {
+          "id": "xfolder-155",
+          "category": "抱怨复制太麻烦",
+          "text": "Thank you for sharing your feedback. To streamline the process, you can go to the app's settings page, in the \"General\" section, and switch the \"The way to copy\" option to \"Copy and Cut\" mode. This will make the file manipulation process more efficient."
+        },
+        {
+          "id": "xfolder-156",
+          "category": "耗电",
+          "text": "您设备上的其他应用程序或设置可能是造成这种情况的原因。 我们建议您检查设备的电源管理设置。"
+        },
+        {
+          "id": "xfolder-157",
+          "category": "询问是否免费",
+          "text": "感谢您对我们的应用程序感兴趣。XFolder 可以免费使用！ 您可以免费下载并使用它。 但是，由于我们免费提供此应用程序，因此存在支持其开发和维护的广告。"
+        },
+        {
+          "id": "xfolder-158",
+          "category": "sd卡无法授权",
+          "text": "Sorry for the trouble. Clearing XFolder's cache and data may help. We apologize for any inconvenience caused and appreciate your understanding. If you have any further questions, please feel free to contact us."
+        },
+        {
+          "id": "xfolder-159",
+          "category": "抱怨移动后不删除源文件",
+          "text": "亲爱的用户，\n\n感谢您与我们联系。 听起来您在设备上移动时复制文件时遇到了问题。 我想澄清一下，如果在移动过程中有文件复制失败，原始文件将不会被删除。 仅在成功复制后，文件才会从源位置删除。"
+        },
+        {
+          "id": "xfolder-160",
+          "category": "抱怨app占用太多空间",
+          "text": "亲爱的用户，\n\n应用程序可能会在回收站和缓存中积累许多文件，这可能会降低设备的速度。 尝试在应用程序设置中清除缓存并清空垃圾箱以释放空间。 这可能有帮助！ 😊"
+        },
+        {
+          "id": "xfolder-161",
+          "category": "手动清除app缓存",
+          "text": "Thank you for reaching out to us. Due to restrictions imposed by the Android 11+ operating system, we don't have the direct permission to delete app caches. However, you can follow these steps to manually clear cache for apps:\n\n1. Find the \"Apps\" shortcut in home page.\n2. Grant \"usage access\" permissions.\n3. Find the app that is consuming the most storage.\n4. Click the app's icon, you could find the option to clear its cache."
+        },
+        {
+          "id": "xfolder-162",
+          "category": "视频单曲循环",
+          "text": "Hello. Repeat play is supported:\n1. Tap playlist button on bottom right of playback screen;\n2. Then you can find play mode on top right of  playlist window;\n3. Switch to \"Repeat current\".\nPlease let us know if the problem is solved or not. Thanks."
+        },
+        {
+          "id": "xfolder-163",
+          "category": "抱怨不支持xx云盘",
+          "text": "Thank you for your feedback. We will consider adding support for Yandex and WebDAV in the future. Please keep an eye out for future updates."
+        },
+        {
+          "id": "xfolder-164",
+          "category": "已经通过邮件回复",
+          "text": "亲爱的用户，\n\n得知您在应用程序中请求权限时遇到问题，我们深表遗憾。 我们已收到您的电子邮件并已开始调查该问题。 如果您有任何其他问题或需要进一步帮助，请随时通过电子邮件或您喜欢的任何其他方式与我们联系。\n感谢您的理解和支持。"
+        },
+        {
+          "id": "xfolder-165",
+          "category": "视频无法播放",
+          "text": "很抱歉给您带来不便。 我们将继续改进我们的视频播放器。 如果某些视频无法播放，我们建议使用专业视频播放器，例如 XPlayer。 感谢您的理解。"
+        },
+        {
+          "id": "xfolder-166",
+          "category": "三星电池优化",
+          "text": "We're sorry to hear about your problem. If your Samsung's device care tries to put the app in deep sleep mode and asks you to uninstall it, we recommend you follow the steps below:\n\n1. Go to Settings.\n\n2. Tap \"Battery\".\n\n3. Tap “Background usage limits”.\n\n5. Tap \"Deep sleeping apps\".\n\n6. Here you can change the battery optimization settings for the app. Choose \"Unrestricted\" to ensure that the app is not put in deep sleep mode.\n\nIf you continue to have problems, please provide us with more details so that we can better assist you."
+        },
+        {
+          "id": "xfolder-167",
+          "category": "启动慢",
+          "text": "很抱歉听到您遇到启动速度较慢的问题。我们将在后续版本中致力于优化启动速度。感谢您的反馈，也感谢您对我们的理解与支持。如果您有其他问题或建议，请随时告诉我们。"
+        },
+        {
+          "id": "xfolder-168",
+          "category": "抱怨GDPR",
+          "text": "Sorry for the trouble. Please rest assured that our app does not collect any personal information from users. The GDPR pop-up is required by regulations, but it does not involve gathering any user data. We apologize for any inconvenience caused and appreciate your understanding."
+        },
+        {
+          "id": "xfolder-169",
+          "category": "关于购买的超详细回复1",
+          "text": "Dear,\n\nThe email that received your purchase receipt is your purchasing account (Account A). Please confirm Account A is logged into Google Play Store.\n\nIf a \"Remove Ads\" option appears in the app, tap it and verify the purchasing account is Account A (see image 1). If not, log out of other accounts.\n\nIf it is Account A, tap \"FOREVER\" → \"CONTINUE\" → \"1-TAP BUY.\" A popup will appear (see image 2) — this step will NOT charge you. If the Remove Ads option persists, try force-closing and reopening the app.\n\nIf the issue remains, please clear Google Play Store's data and cache, then repeat the steps above.\n\nThank you for your patience — looking forward to your reply!\n\nBest regards,\n\nXFolder Team"
+        },
+        {
+          "id": "xfolder-170",
+          "category": "购买-订阅版",
+          "text": "Dear,\n\nThe email that received your purchase receipt is your purchasing account (Account 1). Please confirm Account 1 is logged into Google Play Store.\n\nIf a \"Remove Ads\" option appears in the app, tap \"YEAR\" → \"CONTINUE\"  and verify the purchasing account is Account 1 (see image 1). If not, log out of other accounts.\n\nIf the issue remains, please clear Google Play Store's data and cache.\n\nThank you for your patience — looking forward to your reply!\n\nBest regards,\n\nXFolder Team"
+        },
+        {
+          "id": "xfolder-171",
+          "category": "关于购买的超详细回复2",
+          "text": "Hi there,\n\nThank you for reaching out to us. The issue you are experiencing is caused by a known glitch in the Google Play Store when handling multiple accounts on a single device. Sometimes, the Play Store app's cache gets confused and checks the wrong account for your purchase license, hiding your Premium status.\n\nTo fix this, please follow these steps using the Google Play website:\n\n1. Uninstall our app from your phone.\n\n2. Open a web browser on a computer and go to play.google.com.\n(Note: If you are using your phone's browser, you must enable \"Desktop site\" mode in the browser menu so it doesn't automatically redirect you to the Play Store app).\n\n3. On the webpage, ensure you are logged in strictly with the exact Google account you used to make the purchase.\n\n4. Search for our app and click the \"Install\" or \"Installed\" button.\n\n5. Select your current phone from the drop-down list of devices to push the installation directly to your phone.\n\n6. Once it installs on your phone, open the app. It should now properly verify the license against your correct account.\n\nPlease give this a try and let us know if it successfully restores your Premium features!\n\nBest regards,\nXFolder Team"
+        },
+        {
+          "id": "xfolder-172",
+          "category": "关于购买的超详细回复3",
+          "text": "Hi there,\n\nThank you for reaching out to us.\n\nThe issue you are experiencing is caused by a known glitch in the Google Play Store when handling multiple accounts on a single device. Sometimes, the Play Store app's cache gets confused and checks the wrong account for your purchase license, hiding your Premium status.\n\nTo fix this, we need to force the Play Store app to forget its current multi-account memory and recognize your purchasing account. Please follow these steps:\n\n1. Uninstall our app from your phone.\n\n2. Go to your device Settings > Accounts (or \"Passwords & accounts\"), and temporarily remove all Google accounts EXCEPT the primary one you used to make the premium purchase.\n\n3. Next, we need to reset the store's cache. Go to your device Settings > Apps > Google Play Store > Storage, then tap Clear Data and Clear Cache. (Note: This is completely safe and won't delete any of your installed apps or personal files).\n\n5. Open the Google Play Store app, ensure your correct account is active, and reinstall our app.\n\n6. Open our app and verify that your Premium features are successfully restored.\n\n7. Finally, you can safely re-add your other Google accounts back to your device settings. The app will now remain correctly tied to your premium account.\n\nPlease give this a try and let us know if it solves the problem!\n\nBest regards,\nXFolder Team"
+        },
+        {
+          "id": "xfolder-173",
+          "category": "设置壁纸",
+          "text": "使用“built-in image viewer”打开一张图片，点击图片下方的“set as”按钮即可设置壁纸。"
+        },
+        {
+          "id": "xfolder-174",
+          "category": "电池",
+          "text": "Sorry for the trouble. You can try to adjust the battery optimization settings for XFolder. Please go to your device's settings, find the battery optimization settings, and set XFolder to \"unrestricted.\" This should prevent the system from killing the app's process. If the issue persists, please let us know so we can assist you further."
+        },
+        {
+          "id": "xfolder-175",
+          "category": "切换视图",
+          "text": "Thank you for your feedback. Please click the \"View\" button (a square with nine dots) in the upper right corner and switch to list. If you have any further questions, please feel free to contact us."
+        },
+        {
+          "id": "xfolder-176",
+          "category": "sd卡无法识别",
+          "text": "Hello there! We're sorry for the trouble you're experiencing. if your phone is not recognizing the SD card, then the app won't be able to see it either.  If you have any further questions, please feel free to contact us."
+        },
+        {
+          "id": "xfolder-177",
+          "category": "xfolder有什么功能",
+          "text": "Hi there! Thank you for your feedback. It can help you manage files on your device, move files, delete files, connect to cloud drives, etc. If you have any further questions or need additional assistance, please do not hesitate to contact us."
+        },
+        {
+          "id": "xfolder-178",
+          "category": "无法在同一 wifi 网络上检测到我的本地电脑",
+          "text": "Dear user, we are sorry for the trouble. Please try to use the manual add function. Check your local computer's IP address and enter it in the Host column. If you have any other questions or need more help, please feel free to contact us."
+        },
+        {
+          "id": "xfolder-179",
+          "category": "关于应用文件夹的解释",
+          "text": "Hello, sorry for the trouble. /storage/emulated/0/FileManager folder is the cache folder of XFolder. Deleting it will make the application's file loading speed slower, and the files in the secure folder will also be deleted. We do not recommend any modification to this folder."
+        },
+        {
+          "id": "xfolder-180",
+          "category": "管理快捷方式",
+          "text": "Thank you for your suggestions! To manage the features displayed on the homepage, you can click the \"More\" button, then go to the \"Shortcut\" page and use the \"Manage\" button at the top right. If you have any further questions or need additional assistance, please do not hesitate to contact us."
+        },
+        {
+          "id": "xfolder-181",
+          "category": "复制/移动文件时anr",
+          "text": "您好，感谢您的反馈！我们很抱歉给您带来了不便。出现这种情况可能是由于文件数量太多或设备性能的原因导致的。建议您尝试清理设备缓存或重新启动应用。感谢您的支持！"
+        },
+        {
+          "id": "xfolder-182",
+          "category": "将应用移动到sd卡",
+          "text": "Thank you for your feedback. We currently do not support moving apps to SD card, but we will consider adding this feature in the future. Please keep an eye out for future updates."
+        },
+        {
+          "id": "xfolder-183",
+          "category": "USB不安全移除",
+          "text": "非常抱歉给您带来不便！如果您是在将文件移动到USB设备上，建议在移动完成后通过点击首页上的三角按钮进行“安全移除USB”操作。否则在未正确卸载的情况下，可能会出现文件丢失的问题。我们会持续优化传输稳定性，感谢您的反馈！"
+        },
+        {
+          "id": "xfolder-184",
+          "category": "修改storage space",
+          "text": "Thank you for sharing your feedback. You can go to the app's settings page, in the \"General\" section, and switch the \"Storage Space\" option to \"Display available space\" mode."
+        }
+      ]
+    },
+    "MP3 Cutter": {
+      "templates": [
+        {
+          "id": "mp3cutter-001",
+          "category": "说好但没有五星",
+          "text": "Hello there! Thank you for your valuable feedback. If you're enjoying our app, would you kindly consider leaving us a 5-star rating? Your support means a lot to us and will be very encouraging. Thanks for your time, and have a great day! 🌟🌟🌟🌟🌟"
+        },
+        {
+          "id": "mp3cutter-002",
+          "category": "无意义评论求五星",
+          "text": "Hi there, thanks for trying our app! If you find it useful, we would be grateful if you could rate us 5 stars to support us. Thank you and have a great day! 🌟🌟🌟🌟🌟"
+        },
+        {
+          "id": "mp3cutter-003",
+          "category": "无意义差评",
+          "text": "Hi there, we're sorry to hear that you're not satisfied with our app. Could you please provide more specific feedback so that we can improve? We always strive to provide the best user experience. Thank you!"
+        },
+        {
+          "id": "mp3cutter-004",
+          "category": "缺点+建议没给五星",
+          "text": "Thank you for your feedback. We apologize for the inconvenience you have experienced and appreciate your suggestions on how we can improve. We are committed to providing the best user experience possible and will continue to work on adding new features and addressing these issues. Please keep an eye out for future updates."
+        },
+        {
+          "id": "mp3cutter-005",
+          "category": "询问详细问题",
+          "text": "Hello there! We're sorry for the trouble you're experiencing. Could you please provide us with more details about the issue so we can help you better? Your assistance is greatly appreciated and will help us to solve the problem. Thank you in advance for your help, we're here to support you! 🙏"
+        },
+        {
+          "id": "mp3cutter-006",
+          "category": "询问详细建议",
+          "text": "Hello there! Thank you so much for taking the time to give us your feedback. We'd love to hear more about your suggestion if you wouldn't mind sharing some additional details. And if you have any other suggestions, we're all ears! Don't hesitate to let us know."
+        },
+        {
+          "id": "mp3cutter-007",
+          "category": "广告太多",
+          "text": "Thank you for your feedback! We understand that ads may affect your experience, but ads are an important part of supporting our continued development and maintenance of the app. We will work hard to optimize the way ads are displayed to reduce interference to users."
+        },
+        {
+          "id": "mp3cutter-008",
+          "category": "免费使用",
+          "text": "Thank you for your feedback! All features in our app can be fully unlocked for free simply by watching ads, so you don't have to spend any money to get the full experience. We will continue working to optimize our ad placements to reduce interference for our free users."
+        },
+        {
+          "id": "mp3cutter-009",
+          "category": "广告加载失败",
+          "text": "Hello there! We apologize for any inconvenience caused. We rely on ads to keep our app free, but we'll try to reduce them as much as possible. You can unlock all the features in the program by watching ads.  If ad loading fails, please try switching your network and attempting it again. Thank you for your understanding and support."
+        },
+        {
+          "id": "mp3cutter-010",
+          "category": "有害广告",
+          "text": "Hello there! We apologize for the inconvenience caused by the ad you encountered. If you come across any such ads, please send the link of the app to videostudio.feedback@gmail.com. We will take action to ban such ads. We do not support malware/spyware and take such matters seriously. Thank you for bringing this to our attention."
+        },
+        {
+          "id": "mp3cutter-011",
+          "category": "截图或录屏",
+          "text": "Hi friend. So sorry for the trouble. We can't reproduce your problem and do not understand what went wrong. You can record the problem as a video or some pictures. Could you please send your videos or pictures to us at  videostudio.feedback@gmail.com? It is very important for us to solve the problem. Many thanks in advance."
+        },
+        {
+          "id": "mp3cutter-012",
+          "category": "打不开文件",
+          "text": "Hello there! We're sorry for the trouble you're experiencing. Could you please provide us with more details about the issue so we can help you better? We currently support importing audio in mp3, Wav, m4a, acc, FLAC and other formats. You can send more details or this audio to our team at videostudio.feedback@gmail.com. 😊"
+        },
+        {
+          "id": "mp3cutter-013",
+          "category": "转换时间过长",
+          "text": "Hi there, sorry for the inconvenience. May I know how long the audio you are trying to trim? The conversion time may vary depending on the length of the audio file. We appreciate your understanding and patience."
+        },
+        {
+          "id": "mp3cutter-014",
+          "category": "裁剪后音质降低",
+          "text": "Hi there, we're sorry to hear that you're not satisfied with our app. Please note that MP3 is a compressed audio format, which may result in a loss of audio quality during the conversion process. Please let us know if you have any further questions or concerns."
+        },
+        {
+          "id": "mp3cutter-015",
+          "category": "裁剪不准确1",
+          "text": "We apologize for the inconvenience. We recommend moving the playback cursor to a position close to both the starting and ending points, such as 0.5 seconds, when zooming in on the audio waveform to determine the start and end positions. This can effectively help avoid discrepancies"
+        },
+        {
+          "id": "mp3cutter-016",
+          "category": "裁剪不准确2",
+          "text": "We apologize for the inconvenience. And we recommend moving the cursor (the white marker) to 0.5 seconds before the desired trimming point (the blue marker) to ensure the accuracy of the trim. This issue is related to the player, so as long as you can confirm that the audio content is correct, it should be sufficient."
+        },
+        {
+          "id": "mp3cutter-017",
+          "category": "播放器精度不显示0.1s的问题",
+          "text": "Sorry for the confusion. The limitation you mentioned is due to the way the player displays the time, which rounds the values to the nearest whole second. However, please note that the actual content of the exported audio still be accurate according to the start and stop marks you set."
+        },
+        {
+          "id": "mp3cutter-018",
+          "category": "卸载后删除录音",
+          "text": "I'm sorry for the trouble. Uninstalling the app should not delete any recordings from the Recorder. Please check if the recordings are still in the app or in your device's storage. Let me know if you need further assistance."
+        },
+        {
+          "id": "mp3cutter-019",
+          "category": "询问具体格式",
+          "text": "Thank you for contacting us. We apologize for the issue you are experiencing. Please let us know the format of the original audio file and the output format you are converting to. With this information, we can investigate the issue and provide you with a solution. Thank you."
+        },
+        {
+          "id": "mp3cutter-020",
+          "category": "音频裁剪有噪音",
+          "text": "I'm sorry to hear that you're experiencing noise when trimming and saving your audio. This may be caused by a variety of factors, such as low-quality audio input or output. Have you tried experimenting with different audio files? Please let me know if there's anything else I can do to assist you."
+        },
+        {
+          "id": "mp3cutter-021",
+          "category": "找不到文件",
+          "text": "We're sorry you had a bad experience. To import audio files, you can try clicking on the \"Folder\" icon located in the top right corner of the screen. This will allow you to browse through your folders and locate the specific audio file you want to import."
+        },
+        {
+          "id": "mp3cutter-022",
+          "category": "找不到转换的文件",
+          "text": "We're sorry you had a bad experience. You can find your converted files in the /storage/emulated/0/Music/MP3Cutter folder. Hope this helps!"
+        },
+        {
+          "id": "mp3cutter-023",
+          "category": "导入ogg音频",
+          "text": "Thank you for your comment. You can import OGG audio files by clicking on the \"folder\" icon in the upper right corner of the screen when selecting the audio file to trim. This will take you to the system file management page where you can find the OGG audio file you want to import."
+        },
+        {
+          "id": "mp3cutter-024",
+          "category": "无法保存，不起作用",
+          "text": "Sorry for the trouble. What specific function were you using and what format was the audio file you were working with? If you could send us the source file of the audio you were trying to trim via videostudio.feedback@gmail.com, it would be very helpful for us to investigate and resolve the issue. Thank you for your feedback."
+        },
+        {
+          "id": "mp3cutter-025",
+          "category": "购买会员后发现没有video to mp3的功能1",
+          "text": "We're sorry for the confuse. The \"Video to Audio\" function is not included in the MP3 Cutter Pro version. To use this feature, you will need to download our separate \"Video to MP3 - Video to Audio\" app, which can be found in the app store. Once installed, you will be able to access this feature from the MP3 Cutter home screen."
+        },
+        {
+          "id": "mp3cutter-026",
+          "category": "购买会员后发现没有video to mp3的功能2",
+          "text": "Dear [User],\n\nWe would like to clarify that the MP3 Cutter Pro version does not include the \"Video to Audio\" function. To use this feature, you will need to download our separate \"Video to MP3 - Video to Audio\" application, which you can find at the following link: https://play.google.com/store/apps/details?id=mp3videoconverter.videotomp3.videotomp3converter. Once installed, you will be able to access this feature from the main screen of MP3 Cutter.\n\nThank you for your understanding.\n\nBest regards,\n\n[Your Name]"
+        },
+        {
+          "id": "mp3cutter-027",
+          "category": "无法连续裁剪",
+          "text": "Thank you for your feedback. Currently, our app only supports one-time audio trimming. We will consider adding the ability to perform multiple trims in the future. Please let us know if you have any further questions or concerns."
+        },
+        {
+          "id": "mp3cutter-028",
+          "category": "使用条款不是xx语言",
+          "text": "We try to translate our Terms of Use into as many languages as possible, but unfortunately this is not always possible due to time and resource constraints. If you have any questions or need help, please contact our customer service team, they will be happy to help you in Polish."
+        },
+        {
+          "id": "mp3cutter-029",
+          "category": "youtube",
+          "text": "Thank you for your feedback. Unfortunately, MP3 Cutter app is not capable of extracting music from YouTube. It is only designed to cut locally stored music files. Please feel free to reach out to us if you have any other questions or concerns."
+        },
+        {
+          "id": "mp3cutter-030",
+          "category": "如果你安装这个，它会告诉你安装该公司的所有其他应用程序",
+          "text": "Hi! Thanks for sharing your experience. Please rest assured that our app will not force you to install any other applications. If you encountered any issues like this, it's possible that you may have accidentally clicked on an advertisement. If you have any other questions or concerns, please feel free to let us know."
+        },
+        {
+          "id": "mp3cutter-031",
+          "category": "不支持打开长音频",
+          "text": "Hi there, thank you for reaching out. Our app supports opening longer audio files, but it may take more time to load them due to their size. If you have any further questions or concerns, please let us know."
+        },
+        {
+          "id": "mp3cutter-032",
+          "category": "功能太简单，不是editor",
+          "text": "Thank you for trying 'MP3 Cutter and Ringtone Maker'. We apologize that it did not meet your expectations and needs as an MP3 editor. As the name suggests, our app is primarily designed for cutting and creating ringtones from short MP3 files. We appreciate your feedback and will take it into consideration for future updates."
+        },
+        {
+          "id": "mp3cutter-033",
+          "category": "恢复购买",
+          "text": "Hi there. Please check all accounts signed into the Google Play Store and delete any accounts other than the one you purchased MP3 Cutter from. If you have only logged in with the account you used to make the purchase, you can try to clear the data(not cache) of Google Play. If the issue persists, do get back to us."
+        },
+        {
+          "id": "mp3cutter-034",
+          "category": "解释为什么要访问图片",
+          "text": "Thank you for expressing your concerns. We apologize if our app's permission request has raised any privacy concerns for you. The \"files and media\" permission, which includes access to photos, is required in order to access music files stored on your device. It allows our app to read and write files to provide the intended functionality."
+        },
+        {
+          "id": "mp3cutter-035",
+          "category": "小米录音机录制的文件无法剪辑",
+          "text": "The file appears to be stored in the Android/data directory, which we do not have permission to access. You can try saving the audio file to the Music directory or the Download directory. Once the file is in a location accessible to our application, you should be able to open it successfully."
+        },
+        {
+          "id": "mp3cutter-036",
+          "category": "俄语用户",
+          "text": "Прошу прощения за возникшие проблемы. Чтобы мне лучше понять ситуацию и предложить подходящее решение, могли бы вы уточнить, что именно не грузится? Не грузится какая-то определенная функция, ресурс или что-то другое? Это касается загрузки рекламы, онлайн-мелодий или чего-то еще? Более подробная информация поможет мне помочь вам лучше."
+        },
+        {
+          "id": "mp3cutter-037",
+          "category": "找用户要文件",
+          "text": "感谢您的反馈意见。 请将无法成功修剪的文件发送给我们。 您可以将这些文件发送至videostudio.feedback@gmail.com。 这将使我们能够更详细地研究该问题并为您提供适当的解决方案。感谢您的合作，我们将很乐意为您提供帮助。"
+        },
+        {
+          "id": "mp3cutter-038",
+          "category": "新版本中增加设置系统铃声的功能",
+          "text": "Thank you for your feedback. We have added setting system ringtone feature in version 2.2.3. However, it may take some time for the update to be pushed to your device. Please be patient and stay tuned for the update."
+        },
+        {
+          "id": "mp3cutter-039",
+          "category": "13权限",
+          "text": "Hello! In Android 13, permissions have been subdivided, and it's necessary to grant both \"music and audio\" and \"photos and videos\" permissions for the app to function correctly. Please check if you have granted both of these permissions."
+        },
+        {
+          "id": "mp3cutter-040",
+          "category": "崩溃",
+          "text": "We sincerely apologize for any inconvenience you've experienced. Could you please let us know which function you were using when the app crashed or anr? Your feedback will help us investigate and resolve the issue more effectively. Thank you for your assistance."
+        },
+        {
+          "id": "mp3cutter-041",
+          "category": "隐私",
+          "text": "Dear user,\n\nWe want to assure you that we do not collect or use your personal information. Your privacy and security are of utmost importance to us. Our app follows strict privacy policies and only accesses the information required for its functionality."
+        },
+        {
+          "id": "mp3cutter-042",
+          "category": "无法保存，发送源文件",
+          "text": "Sorry for the trouble. If you could send us the file named 'y2mate.com - TERE ISHQ NE Shoaib Ibrahim & Mallika Singh .mp3' , it would be very helpful for us to investigate and resolve the issue. Thank you for your feedback."
+        },
+        {
+          "id": "mp3cutter-043",
+          "category": "裁剪前后的文件",
+          "text": "Sorry for the trouble. Could you send us the original source file before cropping and the file after cropping? You can contact us at videostudio.feedback@gmail.com. This can help us identify and resolve the issue. Thank you for your feedback."
+        },
+        {
+          "id": "mp3cutter-044",
+          "category": "建议重装app",
+          "text": "Sorry for the trouble.We recommend clearing the app data or reinstalling the app and restarting your phone then trying again. This often resolves such problems. If the issue persists, please feel free to reach out for further assistance."
+        },
+        {
+          "id": "mp3cutter-045",
+          "category": "发送旧版本",
+          "text": "Hi friend, sorry for the trouble. You can reach out to us via email, and we'll send you the older version. Our email address is videostudio.feedback@gmail.com."
+        },
+        {
+          "id": "mp3cutter-046",
+          "category": "质量问题",
+          "text": "很遗憾您对更新后的质量不满意。 您能给我们提供更多详细信息吗？ 例如，您认为质量的哪些具体方面出现了恶化？ 您注意到哪些具体参数或指标？ 感谢您的理解和合作。"
+        },
+        {
+          "id": "mp3cutter-047",
+          "category": "建议重启手机",
+          "text": "Sorry for the trouble.We recommend restarting your phone then trying again. This often resolves such problems. If the issue persists, please feel free to reach out for further assistance."
+        },
+        {
+          "id": "mp3cutter-048",
+          "category": "诈骗app",
+          "text": "Dear user, we assure you that our app is safe and secure. Could you please let us know what issue you experienced? We take such concerns very seriously and would like to investigate further. Thank you for bringing this to our attention!"
+        },
+        {
+          "id": "mp3cutter-049",
+          "category": "价格不一致2257",
+          "text": "Due to our recent price adjustment, the original price displayed is outdated. It may be network problems that the correct price information was not obtained in time. We understand that this difference may be misleading. We apologize for any inconvenience caused. If you wish, you can always contact us at videostudio.feedback@gmail.com."
+        }
+      ]
+    },
+    "Video to MP3": {
+      "templates": [
+        {
+          "id": "video2mp3-001",
+          "category": "转换时间太长",
+          "text": "Hi there, sorry for the inconvenience. May I know how long the audio you are trying to convert? The conversion time may vary depending on the length of the audio file. If the conversion process is taking too long, we recommend using the default format for faster results."
+        },
+        {
+          "id": "video2mp3-002",
+          "category": "转换失败",
+          "text": "We're sorry you had a bad experience. Could you please let us know which feature you were using when the conversion failed? Your additional information will help us resolve the issue. If needed, you can also reach out to us at videostudio.feedback@gmail.com."
+        },
+        {
+          "id": "video2mp3-003",
+          "category": "video to audio转换失败",
+          "text": "Dear user, we apologize for the inconvenience. What format was the video file you were working with? If you could send us the source file of the video you were trying to convert via videostudio.feedback@gmail.com, it would be very helpful for us to investigate and resolve the issue. Thank you for your feedback."
+        },
+        {
+          "id": "video2mp3-004",
+          "category": "audio cutter失败",
+          "text": "Dear user, we apologize for the inconvenience. What format was the audio file you were working with? If you could send us the source file of the audio you were trying to trim via videostudio.feedback@gmail.com, it would be very helpful for us to investigate and resolve the issue. Thank you for your feedback."
+        },
+        {
+          "id": "video2mp3-005",
+          "category": "不支持某格式",
+          "text": "Hi there, thank you for reaching out to us. Could you please let us know what is the specific format of the video that you are trying to open? We would be happy to investigate and see if we can support it in the future. Thank you for your understanding."
+        },
+        {
+          "id": "video2mp3-006",
+          "category": "压缩音频大小",
+          "text": "To reduce the quality of an MP3 file, you can lower the bitrate when converting or exporting the file. A lower bitrate means a lower quality audio file. However, keep in mind that reducing the bitrate too much can result in a noticeable loss in audio quality."
+        },
+        {
+          "id": "video2mp3-007",
+          "category": "找不到转换的文件，11以上",
+          "text": "We're sorry for the bad experience. You can find the converted audio files in the /storage/emulated/0/Music/VideoToMp3 folder, and the converted video files in the /storage/emulated/0/Movies/VideoToMp3 folder. Hope this helps!"
+        },
+        {
+          "id": "video2mp3-008",
+          "category": "找不到转换的文件，5-10",
+          "text": "We're sorry for the bad experience. You can find the converted files in the/storage/emulated/0/VideoToMp3 folder. Hope this helps!"
+        },
+        {
+          "id": "video2mp3-009",
+          "category": "音乐播放器",
+          "text": "The converted audio files are stored in the folder: /storage/emulated/0/Music/VideoToMp3/VideoToAudio. Some music players may require manually adding this path to their library settings to display the files. Please try this and let us know if you face further issues. We apologize for the inconvenience and thank you for your patience!"
+        },
+        {
+          "id": "video2mp3-010",
+          "category": "谷歌商店无法安装",
+          "text": "We're sorry for the inconvenience. Please ensure that your device is compatible with the app and has enough storage space. If you continue to have problems, please try clearing the cache and data of the Google Play Store app and try again."
+        },
+        {
+          "id": "video2mp3-011",
+          "category": "youtube",
+          "text": "Thank you for your feedback. Unfortunately, Video to MP3 app is not capable of extracting music from YouTube. It is only designed to cut locally stored music files. Please feel free to reach out to us if you have any other questions or concerns."
+        },
+        {
+          "id": "video2mp3-012",
+          "category": "在其他设备上恢复购买1",
+          "text": "Hi! To restore your premium purchase on another device, make sure you're ONLY logged into the Google Store with the Google account you used to purchase your premium membership. Then, please try clearing the Google Play's data and then reopening it.  You can log in to the same Google account on multiple devices. Hope this information helps."
+        },
+        {
+          "id": "video2mp3-013",
+          "category": "恢复购买",
+          "text": "Hi there. Please check all accounts signed into the Google Play Store and delete any accounts other than the one you purchased Video to MP3 from. If you have only logged in with the account you used to make the purchase, you can try to clear the data(not cache) of Google Play. If the issue persists, do get back to us."
+        },
+        {
+          "id": "video2mp3-014",
+          "category": "从directories中打开",
+          "text": "Hi there! You can click on the three dots in the top right corner of the video selection page and then click on \"directories.\" From there, you can find the video you want to convert. Please let us know if you have any other questions or concerns."
+        },
+        {
+          "id": "video2mp3-015",
+          "category": "小米录音机录制的文件无法剪辑",
+          "text": "回复用户，因为使用小米的录音机应用录制的音频存放在Android/data/com.android.soundrecorder内，我们没有权限访问Android/data内的文件夹，需要把音频文件移出到其他文件夹我们的应用程序才可以正常访问"
+        },
+        {
+          "id": "video2mp3-016",
+          "category": "推荐使用稳定模式保存视频",
+          "text": "To ensure the accuracy of trimming, we recommend that you use \"STABLE\" mode when saving video after trimming.\n\nIf the issue persists even after using \"STABLE\" mode, we recommend checking the quality of your source files and making sure they don't have audio sync issues.\n\nIf you're still experiencing issues, feel free to provide more details about the video in question, such as its format and source, so we can help you more specifically. Your feedback is important and we are here to help you resolve any issues you encounter."
+        },
+        {
+          "id": "video2mp3-017",
+          "category": "解释为什么m3u8不能转换为mp4",
+          "text": "M3U8 文件实际上是一个播放列表文件，通常用于流媒体视频的播放，而不是直接包含视频内容的文件。这种文件包含了指向视频流的链接和其他信息。因此，无法直接将 M3U8 文件转换为 MP4 或 AVI 格式，因为它们本身并不包含实际的视频数据。"
+        },
+        {
+          "id": "video2mp3-018",
+          "category": "不知道怎么手动授权",
+          "text": "Dear user,\n\nWe recommend uninstalling and reinstalling the app, then following the in-app guidance to re-grant the necessary permissions. This should help resolve the issue you're experiencing."
+        },
+        {
+          "id": "video2mp3-019",
+          "category": "视频列表加载不出来",
+          "text": "Hello! If you have a large number of video files on your device, it may take some time to load the file list. Please be patient. If the issue persists, kindly exit the application and re-enter. Please let us know if you have any other questions or concerns."
+        },
+        {
+          "id": "video2mp3-020",
+          "category": "手机存储不足导致转换失败",
+          "text": "We're very sorry to hear about your experience. Based on the error code displayed, it seems that your phone may have insufficient storage space. We kindly recommend clearing some files and then trying the conversion again.\n\nIf the issue persists, please feel free to reach out—we’ll be happy to assist you further."
+        },
+        {
+          "id": "video2mp3-021",
+          "category": "回复error_0的邮件，要文件",
+          "text": "We're sorry you had a bad experience. Could you please let us know which feature you were using when the conversion failed? Could you please send us the files that failed to convert? Your additional information will help us resolve the issue."
+        },
+        {
+          "id": "video2mp3-022",
+          "category": "回复result=-36的邮件，改短文件名",
+          "text": "We're sorry you had a bad experience. According to the error code, the file name of this video file is too long. Please try to rename the file to a shorter name and try to convert it again."
+        },
+        {
+          "id": "video2mp3-023",
+          "category": "发送订单号",
+          "text": "Hi, friend, sorry for trouble. please send us the order numbers such as GPA.3336-8423-4086-46722..X. (After buying something from the Google Store, you'll receive a confirmation email that you can use as a receipt, and you'll find your order number on this receipt.)You can contact us at videostudio.feedback@gmail.com."
+        },
+        {
+          "id": "video2mp3-024",
+          "category": "m4a转mp3质量下降",
+          "text": "Sorry for the inconvenience. MP3 is a lossy audio format and supports a maximum bitrate of 320kbps. If the original M4A file has a higher bitrate, a quality reduction is inevitable when converting to MP3. If you have further questions, please feel free to contact us."
+        },
+        {
+          "id": "video2mp3-025",
+          "category": "询问后缀",
+          "text": "Thank you for your feedback. To better understand the situation, can you clarify what extension are files with audio in MPEG4 format? This may help us find a suitable solution for your problem."
+        },
+        {
+          "id": "video2mp3-026",
+          "category": "抱怨不支持m4a",
+          "text": "We're sorry you had a bad experience. Please switch the format to AAC, click the Convert button, and you will get the audio in M4A format. Hope it helps."
+        },
+        {
+          "id": "video2mp3-027",
+          "category": "抱怨不能转换为mp3",
+          "text": "We're sorry you had a bad experience. Please switch the format to MP3, click the Convert button, and you will get the audio in MP3 format. Hope it helps."
+        },
+        {
+          "id": "video2mp3-028",
+          "category": "抱怨非mp3格式的文件不能修改封面",
+          "text": "Thank you for reaching out and we're sorry for any inconvenience caused. When using the \"Video to Audio\" function, please switch the \"Format\" to \"MP3\" so that you can add a cover. If you have further questions, please feel free to contact us."
+        },
+        {
+          "id": "video2mp3-029",
+          "category": "14系统三星/荣耀授权引导",
+          "text": "Thank you for your message. Due to the tightened permissions above Android 14, please go to the app settings and modify the authorization scope. Change the \"PHOTOS AND VIDEOS ACCESS FOR THIS APP\" option to \"Always allow all\". After making this change, you should be able to open files successfully."
+        },
+        {
+          "id": "video2mp3-030",
+          "category": "14系统三星/荣耀授权引导",
+          "text": "Thank you for your message. Due to the tightened permissions above Android 14, please go to the app settings and modify the authorization scope. Change the \"PHOTOS AND VIDEOS ACCESS FOR THIS APP\" option to \"Always allow all\". After making this change, you may be able to convert successfully."
+        },
+        {
+          "id": "video2mp3-031",
+          "category": "14系统pixel授权引导",
+          "text": "Thank you for your message. Due to the tightened permissions above Android 14, please go to the app settings and modify the authorization scope. Change the \"Photos and videos access for this app\" option to \"Always allow all\". After making this change, you should be able to open files successfully."
+        },
+        {
+          "id": "video2mp3-032",
+          "category": "14系统pixel授权引导",
+          "text": "Thank you for your message. Due to the tightened permissions above Android 14, please go to the app settings and modify the authorization scope. Change the \"Photos and videos access for this app\" option to \"Always allow all\". After making this change, you may be able to convert successfully."
+        },
+        {
+          "id": "video2mp3-033",
+          "category": "14系统vivo授权引导",
+          "text": "Thank you for your message. Due to the tightened permissions above Android 14, please go to the app settings and modify the authorization scope. Change the \"Photos and videos access for this app\" option to \"Allow\" and \"Allow photos access\" to \"All photos\". After making this change, you should be able to open files successfully."
+        },
+        {
+          "id": "video2mp3-034",
+          "category": "14系统vivo授权引导",
+          "text": "Thank you for your message. Due to the tightened permissions above Android 14, please go to the app settings and modify the authorization scope. Change the \"Photos and videos access for this app\" option to \"Allow\" and \"Allow photos access\" to \"All photos\". After making this change, you may be able to convert successfully."
+        },
+        {
+          "id": "video2mp3-035",
+          "category": "14系统小米授权引导",
+          "text": "Thank you for your message. Due to the tightened permissions above Android 14, please go to the app settings and modify the authorization scope. Change the \"photos and videos\" option to \"Always allow\".  After making this change, you should be able to open files successfully."
+        },
+        {
+          "id": "video2mp3-036",
+          "category": "14系统小米授权引导",
+          "text": "Thank you for your message. Due to the tightened permissions above Android 14, please go to the app settings and modify the authorization scope. Change the \"photos and videos\" option to \"Always allow\". After making this change, you may be able to convert successfully."
+        },
+        {
+          "id": "video2mp3-037",
+          "category": "14系统oppo/一加/真我授权引导",
+          "text": "Thank you for your message. Due to the tightened permissions above Android 14, please go to the app settings and modify the authorization scope. Change the \"Photos and videos permission\" option to \"Always allow all\". After making this change, you should be able to open files successfully."
+        },
+        {
+          "id": "video2mp3-038",
+          "category": "14系统oppo/一加/真我授权引导",
+          "text": "Thank you for your message. Due to the tightened permissions above Android 14, please go to the app settings and modify the authorization scope. Change the \"Photos and videos permission\" option to \"Always allow all\". After making this change, you may be able to convert successfully."
+        },
+        {
+          "id": "video2mp3-039",
+          "category": "14系统moto授权引导",
+          "text": "Thank you for your message. Due to the tightened permissions above Android 14, please go to the app settings and modify the authorization scope. Change the \"Photos and videos permission\" option to \"Allow\". After making this change, you should be able to open files successfully."
+        },
+        {
+          "id": "video2mp3-040",
+          "category": "14系统moto授权引导",
+          "text": "Thank you for your message. Due to the tightened permissions above Android 14, please go to the app settings and modify the authorization scope. Change the \"Photos and videos permission\" option to \"Allow\". After making this change, you may be able to convert successfully."
+        },
+        {
+          "id": "video2mp3-041",
+          "category": "虚拟键收起",
+          "text": "Thank you for your feedback. To access the virtual buttons on your smartphone, simply swipe up from the bottom of the screen. This should make the virtual keys appear. If you have any additional questions or concerns, please let us know."
+        },
+        {
+          "id": "video2mp3-042",
+          "category": "隐私",
+          "text": "Thank you for your feedback! We take user privacy and data security very seriously. Video to MP3 strictly adheres to the privacy policy and will never share any data without your consent. Your trust is very important to us!"
+        },
+        {
+          "id": "video2mp3-043",
+          "category": "音质差",
+          "text": "Hello! The audio quality of the converted file depends on the original audio track in the video. For example, if the video’s audio is in AAC format with a 96kbps bitrate, the resulting MP3 will also be lossy. To improve quality, we recommend using videos with higher audio bitrates."
+        },
+        {
+          "id": "video2mp3-044",
+          "category": "音质差2",
+          "text": "Hello! If the M4A audio itself is of high quality, we do not recommend converting it to MP3, because MP3 is a lossy audio format that supports up to 320kb/s. In order to keep the quality, we recommend converting it to a lossless format such as FLAC or WAV, but this will also take up more storage space."
+        },
+        {
+          "id": "video2mp3-045",
+          "category": "文件加载时间长",
+          "text": "Hello, we are sorry that you are not satisfied with our app. If there are a lot of video files in your device, it may take some time to load, please be patient. We will continue to improve the loading speed of files. If you have any other questions, please feel free to contact us."
+        },
+        {
+          "id": "video2mp3-046",
+          "category": "移动文件到别的路径",
+          "text": "Thank you for your feedback! This may be because the path where the file is located does not have permission to access. We recommend that you use a file manager to move the file that indicates a problem to a folder that is easy to find. Then try the conversion again. If you have any other questions, please feel free to contact us."
+        },
+        {
+          "id": "video2mp3-047",
+          "category": "移动文件到别的路径2",
+          "text": "Thank you for your feedback. In this situation, the issue might be related to the file's storage path (location) itself—some folders in the Android system may be restricted, preventing the app from accessing them.\nWe suggest moving this file to a publicly accessible directory, such as the \"Download\" folder, and then trying to open and convert it again in the app.\nPlease let us know if this solution helps!"
+        },
+        {
+          "id": "video2mp3-048",
+          "category": "如何使用",
+          "text": "Hello! Click the \"Video to Audio\" button in the upper left corner of the homepage, select the video file you want to convert, and then click \"Convert\". The conversion will be successful.  If you're enjoying our app, would you kindly consider leaving us a 5-star rating? Thanks for your time, and have a great day! 🌟🌟🌟🌟🌟"
+        },
+        {
+          "id": "video2mp3-049",
+          "category": "权限相关",
+          "text": "感谢您的反馈！应用程序需要访问视频文件才能执行相关功能，如转换或编辑。如果您不希望授予全部访问权限，我们支持选择“允许有限访问”，您可以手动选择特定的文件进行操作。感谢您的理解与支持！"
+        },
+        {
+          "id": "video2mp3-050",
+          "category": "批量转换",
+          "text": "Thank you for your feedback! Video to Audio supports batch conversion. Please click the \"√\" icon in the upper right corner of the file selection page to select multiple files. If you have other questions, please feel free to contact us."
+        },
+        {
+          "id": "video2mp3-051",
+          "category": "应用无法打开",
+          "text": "Sorry for the inconvenience! Please try clearing the app cache or uninstalling and reinstalling the latest version. We will investigate and optimize the app experience as soon as possible. Thank you for your feedback!"
+        },
+        {
+          "id": "video2mp3-052",
+          "category": "价格高",
+          "text": "Thank you for your feedback! We understand your concern. In future updates, we plan to add more premium features and improvements to make the subscription more valuable for our users."
+        },
+        {
+          "id": "video2mp3-053",
+          "category": "回答收费问题",
+          "text": "Sorry for the confusion! Here are our prices: Monthly subscription €4.39, annual subscription €10.99, one-time purchase (lifetime) €21.99. You can find all the details directly in the app by clicking the VIP icon in the top right corner of the home screen. We don't want to mislead anyone!"
+        },
+        {
+          "id": "video2mp3-054",
+          "category": "说好但没有五星",
+          "text": "Hello there! Thank you for your valuable feedback. If you're enjoying our app, would you kindly consider leaving us a 5-star rating? Your support means a lot to us and will be very encouraging. Thanks for your time, and have a great day! 🌟🌟🌟🌟🌟"
+        },
+        {
+          "id": "video2mp3-055",
+          "category": "无意义评论求五星",
+          "text": "Hi there, thanks for trying our app! If you find it useful, we would be grateful if you could rate us 5 stars to support us. Thank you and have a great day! 🌟🌟🌟🌟🌟"
+        },
+        {
+          "id": "video2mp3-056",
+          "category": "无意义差评",
+          "text": "Hi there, we're sorry to hear that you're not satisfied with our app. Could you please provide more specific feedback so that we can improve? We always strive to provide the best user experience. Thank you!"
+        },
+        {
+          "id": "video2mp3-057",
+          "category": "缺点+建议没给五星",
+          "text": "Thank you for your feedback. We apologize for the inconvenience you have experienced and appreciate your suggestions on how we can improve. We are committed to providing the best user experience possible and will continue to work on adding new features and addressing these issues. Please keep an eye out for future updates."
+        },
+        {
+          "id": "video2mp3-058",
+          "category": "询问详细问题",
+          "text": "Hello there! We're sorry for the trouble you're experiencing. Could you please provide us with more details about the issue so we can help you better? Your assistance is greatly appreciated and will help us to solve the problem. Thank you in advance for your help, we're here to support you! 🙏"
+        },
+        {
+          "id": "video2mp3-059",
+          "category": "询问详细建议",
+          "text": "Hello there! Thank you so much for taking the time to give us your feedback. We'd love to hear more about your suggestion if you wouldn't mind sharing some additional details. And if you have any other suggestions, we're all ears! Don't hesitate to let us know."
+        },
+        {
+          "id": "video2mp3-060",
+          "category": "广告太多",
+          "text": "Thank you for your feedback! We understand that ads may affect your experience, but ads are an important part of supporting our continued development and maintenance of the app. We will work hard to optimize the way ads are displayed to reduce interference to users."
+        },
+        {
+          "id": "video2mp3-061",
+          "category": "免费使用",
+          "text": "Thank you for your feedback! All features in our app can be fully unlocked for free simply by watching ads, so you don't have to spend any money to get the full experience. We will continue working to optimize our ad placements to reduce interference for our free users."
+        },
+        {
+          "id": "video2mp3-062",
+          "category": "广告加载失败",
+          "text": "Hello there! We apologize for any inconvenience caused. We rely on ads to keep our app free, but we'll try to reduce them as much as possible. You can unlock all the features in the program by watching ads.  If ad loading fails, please try switching your network and attempting it again. Thank you for your understanding and support."
+        },
+        {
+          "id": "video2mp3-063",
+          "category": "有害广告",
+          "text": "Hello there! We apologize for the inconvenience caused by the ad you encountered. If you come across any such ads, please send the link of the app to videostudio.feedback@gmail.com. We will take action to ban such ads. We do not support malware/spyware and take such matters seriously. Thank you for bringing this to our attention."
+        },
+        {
+          "id": "video2mp3-064",
+          "category": "截图或录屏",
+          "text": "Hi friend. So sorry for the trouble. We can't reproduce your problem and do not understand what went wrong. You can record the problem as a video or some pictures. Could you please send your videos or pictures to us at  videostudio.feedback@gmail.com? It is very important for us to solve the problem. Many thanks in advance."
+        },
+        {
+          "id": "video2mp3-065",
+          "category": "打不开文件",
+          "text": "Hello there! We're sorry for the trouble you're experiencing. Could you please provide us with more details about the issue so we can help you better? We currently support importing audio in mp3, Wav, m4a, acc, FLAC and other formats. You can send more details or this audio to our team at videostudio.feedback@gmail.com. 😊"
+        },
+        {
+          "id": "video2mp3-066",
+          "category": "裁剪后音质降低",
+          "text": "Hi there, we're sorry to hear that you're not satisfied with our app. Please note that MP3 is a compressed audio format, which may result in a loss of audio quality during the conversion process. Please let us know if you have any further questions or concerns."
+        },
+        {
+          "id": "video2mp3-067",
+          "category": "裁剪不准确1",
+          "text": "We apologize for the inconvenience. We recommend moving the playback cursor to a position close to both the starting and ending points, such as 0.5 seconds, when zooming in on the audio waveform to determine the start and end positions. This can effectively help avoid discrepancies"
+        },
+        {
+          "id": "video2mp3-068",
+          "category": "裁剪不准确2",
+          "text": "We apologize for the inconvenience. And we recommend moving the cursor (the white marker) to 0.5 seconds before the desired trimming point (the blue marker) to ensure the accuracy of the trim. This issue is related to the player, so as long as you can confirm that the audio content is correct, it should be sufficient."
+        },
+        {
+          "id": "video2mp3-069",
+          "category": "播放器精度不显示0.1s的问题",
+          "text": "Sorry for the confusion. The limitation you mentioned is due to the way the player displays the time, which rounds the values to the nearest whole second. However, please note that the actual content of the exported audio still be accurate according to the start and stop marks you set."
+        }
+      ]
+    }
+  }
+}
