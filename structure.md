@@ -41,13 +41,18 @@ review-reply/
               [package_map.json, matching_rules.md]
 ```
 
+## 发布 & 分发（已走热更新）
+
+- **公开 repo**：https://github.com/super3hahaha/review-reply ，已发 release `v0.1.0`。
+- 已注册进 tester-app 的 [skill_sync.rs](../tester/tester-app/src-tauri/src/skill_sync.rs) `SKILLS` 列表（owner `super3hahaha` / repo `review-reply`）。
+- **分发链路**：app 启动 → `/releases/latest` 比对 tag → 不一致就下 zipball 覆盖到 `~/.claude/skills/review-reply/`。
+- **维护者发版流程**：改 `data/source/*.xlsx`（或 `copy_shared_templates.py` 的共享清单）→ `python scripts/build_templates.py` 重新生成 `templates.json` → commit & push → **`gh release create vX.Y.Z`**（不打 tag 用户拉不到更新）。
+
 ## 已知遗留
 
 - ringwall / xplayer 暂无模板 sheet，依赖纯生成（用户后续补）
 - 翻译稀疏：除英文外语种覆盖率 < 10%，绝大多数非英语回复要在线翻
-- **未发 GitHub release**，[skill_sync.rs:14](../tester/tester-app/src-tauri/src/skill_sync.rs) 也没注册此 skill；
-  当前 tester-app 通过**本地复制**到 `~/.claude/skills/review-reply/` 来用（改完 SKILL.md/data 后需重新复制）。
-  之后建公开 repo 打 tag、并往 `SKILLS` 列表加一条即可走热更新。
+- **xlsx 用 openpyxl 改过一次**（`copy_shared_templates.py`）：Google Sheets 导出的 `__xludf` 翻译公式缓存值已丢（Excel 里译文列显示 #NAME?），build 只读 A/B 不受影响；原始备份在 `data/源文件备份_复制MP3Cutter类别前.xlsx`（已 gitignore）。
 
 ## tester-app 接入现状（已接通）
 
