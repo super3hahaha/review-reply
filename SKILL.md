@@ -95,6 +95,21 @@ description: >
 5. **写出候选文件**：与输入 JSON 同目录，**把输入文件名的 `.json` 后缀替换成 `.candidates.json`**。
    例：输入 `pending-reviews-1733600000.json` → 输出 `pending-reviews-1733600000.candidates.json`（**不是** `....json.candidates.json`）。
 
+6. **【强制】写完后自检 JSON 合法性**（调用方用 `serde_json` 严格解析，非法直接报错丢弃整批）：
+   - 用 Bash 跑一次校验（把 `<out>` 换成实际路径）：
+     ```
+     python -c "import json,sys; json.load(open(sys.argv[1],encoding='utf-8')); print('JSON OK')" "<out>"
+     ```
+   - **报错就必须修好再重写**，直到打印 `JSON OK` 为止。最常见的坑见下。
+
+#### 写 JSON 的硬性纪律（务必遵守，否则整批作废）
+
+- **`text` / `text_zh` 里出现的双引号必须转义成 `\"`**。这是最高频的失败点——翻译里经常出现 `Change the "Photos access" option` 或中文 `点"删除更新"` 这种带引号的内容。
+- **更稳妥的做法：回复正文里尽量不用 ASCII 直引号 `"`**。要引用 UI 选项名时，中文用 `「」` 或 `『』`，英文用单引号 `'...'` 或直接去掉引号。这样从源头避免转义错误。
+- 正文里的换行写成 `\n`，不要写裸换行。
+- 不要在 JSON 里加注释、尾逗号。
+- 写完**一定**执行上面的 python 校验；只有 `JSON OK` 才算完成这条命令。
+
 ### A.3 输出 JSON schema
 
 ```json
