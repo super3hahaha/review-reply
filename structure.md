@@ -14,10 +14,12 @@ review-reply/
 ├── data/
 │   ├── source/
 │   │   └── *.xlsx           ← 模板编辑源（不参与运行）
-│   ├── templates.json       ← 运行时读这个（由 build 脚本从 xlsx 生成）
+│   ├── templates.json       ← 全量模板全文（命中后按 id 取全文翻译；路径 B 也读）
+│   ├── index.json           ← 紧凑匹配索引（全模板 id+category，无全文）：路径 A 匹配阶段只读这个
 │   └── package_map.json     ← packageName → 产品名
 ├── scripts/
-│   └── build_templates.py   ← xlsx → templates.json
+│   ├── build_templates.py   ← xlsx → templates.json + index.json
+│   └── copy_shared_templates.py ← 把指定类别从一个 sheet 复制到另一个（如 MP3 Cutter→Video to MP3）
 └── references/
     └── matching_rules.md    ← 给 Claude 看的语义匹配启发
 ```
@@ -34,9 +36,10 @@ review-reply/
 ## 数据流
 
 ```
-[xlsx] → build_templates.py → [templates.json]
+[xlsx] → build_templates.py → [templates.json] + [index.json]
                                         ↓
               [tester-app pending-*.json] → Claude with SKILL.md → [*.candidates.json]
+                  匹配阶段读 index.json（小）→ 命中后按 id 从 templates.json 取全文翻译
                                         ↑
               [package_map.json, matching_rules.md]
 ```
@@ -46,7 +49,7 @@ review-reply/
 - **公开 repo**：https://github.com/super3hahaha/review-reply ，已发 release `v0.1.0`。
 - 已注册进 tester-app 的 [skill_sync.rs](../tester/tester-app/src-tauri/src/skill_sync.rs) `SKILLS` 列表（owner `super3hahaha` / repo `review-reply`）。
 - **分发链路**：app 启动 → `/releases/latest` 比对 tag → 不一致就下 zipball 覆盖到 `~/.claude/skills/review-reply/`。
-- **维护者发版流程**：改 `data/source/*.xlsx`（或 `copy_shared_templates.py` 的共享清单）→ `python scripts/build_templates.py` 重新生成 `templates.json` → commit & push → **`gh release create vX.Y.Z`**（不打 tag 用户拉不到更新）。
+- **维护者发版流程**：改 `data/source/*.xlsx`（或 `copy_shared_templates.py` 的共享清单）→ `python scripts/build_templates.py` 重新生成 `templates.json` + `index.json` → commit & push → **`gh release create vX.Y.Z`**（不打 tag 用户拉不到更新）。
 
 ## 已知遗留
 
@@ -56,11 +59,12 @@ review-reply/
 
 ## tester-app 接入现状（已接通）
 
-- `BatchReplyPage.vue` 的「✨ AI 批量生成回复」按钮 → Rust `run_reply_skill`（[reply.rs](../tester/tester-app/src-tauri/src/reply.rs)）
-  → 写 `~/.tester-app/reviews/pending-reviews-<ts>.json` → 跑 `claude /review-reply <json>`
-  → 读回 `*.candidates.json` → 前端按 `review_id` 回填每条评论的候选。
-- **调用恒为路径 A（批量）**，顶层 `channel: "gp"`。回复语言由页面下拉决定，默认 **`"auto"`**（逐条跟随评论语言，单次调用覆盖混合语言批次）。
-- UI：每条评论预填最优候选（`candidates[0]`），「更多」可展开其余候选（EN 正文 + 中文预览 + 标签）切换。
+- `BatchReplyPage.vue` 的「🔎 匹配模板并填充」按钮 → Rust `run_reply_skill`（[reply.rs](../tester/tester-app/src-tauri/src/reply.rs)）
+  → 写 `~/.tester-app/reviews/pending-reviews-<ts>.json` → 跑 `claude /review-reply <json>`（固定 Sonnet）
+  → 读回 `*.candidates.json` → 前端按 `review_id` 回填。
+- **调用恒为路径 A（批量·匹配 only）**，`channel: "gp"`，回复语言默认 **`"auto"`**（逐条跟随评论语言）。
+- **命中模板** → 该评论预填翻译好的模板（1 条）；**未匹配（`matched:false`）** → 标「未匹配·需手动处理」，留空让用户手填。**不再现生成多候选**。
+- 成本：命中只翻 1 条、未命中不生成。实测 6 条评论 $1.01→$0.31、552s→133s（v0.2.0）。
 
 ## 下次改动若涉及……
 
