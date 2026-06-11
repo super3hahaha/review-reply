@@ -1,0 +1,1227 @@
+{
+  "version": "2026-06-09T10:18:54Z",
+  "source_file": "XFolder用户回复模板.xlsx",
+  "note": "匹配索引：全部模板的 id+category（无全文）。路径 A 匹配阶段只读这个；命中后按 id 从 templates.json 取全文翻译。",
+  "products": {
+    "XFolder": {
+      "templates": [
+        {
+          "id": "xfolder-001",
+          "category": "要五星"
+        },
+        {
+          "id": "xfolder-002",
+          "category": "要五星"
+        },
+        {
+          "id": "xfolder-003",
+          "category": "无意义差评"
+        },
+        {
+          "id": "xfolder-004",
+          "category": "无意义评论"
+        },
+        {
+          "id": "xfolder-005",
+          "category": "抱怨某个功能"
+        },
+        {
+          "id": "xfolder-006",
+          "category": "缺点+建议没给五星"
+        },
+        {
+          "id": "xfolder-007",
+          "category": "不理解的评论"
+        },
+        {
+          "id": "xfolder-008",
+          "category": "差、详细问题"
+        },
+        {
+          "id": "xfolder-009",
+          "category": "询问toast"
+        },
+        {
+          "id": "xfolder-010",
+          "category": "广告"
+        },
+        {
+          "id": "xfolder-011",
+          "category": "广告太多卸载"
+        },
+        {
+          "id": "xfolder-012",
+          "category": "离线广告"
+        },
+        {
+          "id": "xfolder-013",
+          "category": "禁用广告"
+        },
+        {
+          "id": "xfolder-014",
+          "category": "低俗广告"
+        },
+        {
+          "id": "xfolder-015",
+          "category": "广告无法关闭"
+        },
+        {
+          "id": "xfolder-016",
+          "category": "广告无法关闭2"
+        },
+        {
+          "id": "xfolder-017",
+          "category": "广告太长了"
+        },
+        {
+          "id": "xfolder-018",
+          "category": "诱导下载广告"
+        },
+        {
+          "id": "xfolder-019",
+          "category": "抱怨收费高"
+        },
+        {
+          "id": "xfolder-020",
+          "category": "无法识别购买1"
+        },
+        {
+          "id": "xfolder-021",
+          "category": "无法识别购买2"
+        },
+        {
+          "id": "xfolder-022",
+          "category": "在多个设备上识别购买"
+        },
+        {
+          "id": "xfolder-023",
+          "category": "建议"
+        },
+        {
+          "id": "xfolder-024",
+          "category": "询问详细建议"
+        },
+        {
+          "id": "xfolder-025",
+          "category": "抱怨没有这个功能"
+        },
+        {
+          "id": "xfolder-026",
+          "category": "建议已经提上日程"
+        },
+        {
+          "id": "xfolder-027",
+          "category": "建议已经在下一版本实现"
+        },
+        {
+          "id": "xfolder-028",
+          "category": "确实有问题"
+        },
+        {
+          "id": "xfolder-029",
+          "category": "问题已在下版本修复"
+        },
+        {
+          "id": "xfolder-030",
+          "category": "Android13无法复制文件到Android/data目录"
+        },
+        {
+          "id": "xfolder-031",
+          "category": "Android13无法重命名和删除Android/data目录下的文件"
+        },
+        {
+          "id": "xfolder-032",
+          "category": "抱怨"
+        },
+        {
+          "id": "xfolder-033",
+          "category": "抱怨"
+        },
+        {
+          "id": "xfolder-034",
+          "category": "抱怨Android data授权失败"
+        },
+        {
+          "id": "xfolder-035",
+          "category": "抱怨需要重置documents"
+        },
+        {
+          "id": "xfolder-036",
+          "category": "询问有没有重置documents"
+        },
+        {
+          "id": "xfolder-037",
+          "category": "三星抱怨Android/data授权失败"
+        },
+        {
+          "id": "xfolder-038",
+          "category": "关闭清理通知提醒"
+        },
+        {
+          "id": "xfolder-039",
+          "category": "三星抱怨通知"
+        },
+        {
+          "id": "xfolder-040",
+          "category": "关闭cleaner tab"
+        },
+        {
+          "id": "xfolder-041",
+          "category": "问题视屏1"
+        },
+        {
+          "id": "xfolder-042",
+          "category": "问题视频2"
+        },
+        {
+          "id": "xfolder-043",
+          "category": "错误截图"
+        },
+        {
+          "id": "xfolder-044",
+          "category": "ru"
+        },
+        {
+          "id": "xfolder-045",
+          "category": "加速原理"
+        },
+        {
+          "id": "xfolder-046",
+          "category": "询问copy相关的详细信息"
+        },
+        {
+          "id": "xfolder-047",
+          "category": "sd卡重新授权1"
+        },
+        {
+          "id": "xfolder-048",
+          "category": "sd卡重新授权2"
+        },
+        {
+          "id": "xfolder-049",
+          "category": "关闭工具栏"
+        },
+        {
+          "id": "xfolder-050",
+          "category": "如何删除重复文件"
+        },
+        {
+          "id": "xfolder-051",
+          "category": "重复文件选择"
+        },
+        {
+          "id": "xfolder-052",
+          "category": "觉得排序有问题/取消置顶"
+        },
+        {
+          "id": "xfolder-053",
+          "category": "觉得排序有问题/取消置顶"
+        },
+        {
+          "id": "xfolder-054",
+          "category": "谷歌云盘安全警告解释"
+        },
+        {
+          "id": "xfolder-055",
+          "category": "问题已经在新版本中解决"
+        },
+        {
+          "id": "xfolder-056",
+          "category": "USB读取失败"
+        },
+        {
+          "id": "xfolder-057",
+          "category": "询问外部存储是什么"
+        },
+        {
+          "id": "xfolder-058",
+          "category": "usb相关"
+        },
+        {
+          "id": "xfolder-059",
+          "category": "usb相关2"
+        },
+        {
+          "id": "xfolder-060",
+          "category": "usb相关3"
+        },
+        {
+          "id": "xfolder-061",
+          "category": "确实有bug"
+        },
+        {
+          "id": "xfolder-062",
+          "category": "smb不能连接询问详情"
+        },
+        {
+          "id": "xfolder-063",
+          "category": "smb匿名和访客登录"
+        },
+        {
+          "id": "xfolder-064",
+          "category": "询问设备型号，安卓版本，应用版本"
+        },
+        {
+          "id": "xfolder-065",
+          "category": "清理误删询问具体文件"
+        },
+        {
+          "id": "xfolder-066",
+          "category": "抱怨误删文件1"
+        },
+        {
+          "id": "xfolder-067",
+          "category": "抱怨误删文件2"
+        },
+        {
+          "id": "xfolder-068",
+          "category": "不断评分"
+        },
+        {
+          "id": "xfolder-069",
+          "category": "抱怨评分"
+        },
+        {
+          "id": "xfolder-070",
+          "category": "询问详细建议"
+        },
+        {
+          "id": "xfolder-071",
+          "category": "求五星"
+        },
+        {
+          "id": "xfolder-072",
+          "category": "all files中显示的文件和storage显示文件大小不一致"
+        },
+        {
+          "id": "xfolder-073",
+          "category": "storage已使用大小显示错误"
+        },
+        {
+          "id": "xfolder-074",
+          "category": "翻译有误"
+        },
+        {
+          "id": "xfolder-075",
+          "category": "看不到telegram的文件"
+        },
+        {
+          "id": "xfolder-076",
+          "category": "看不到telegram的文件2"
+        },
+        {
+          "id": "xfolder-077",
+          "category": "看不到telegram的文件3"
+        },
+        {
+          "id": "xfolder-078",
+          "category": "看不到telegram文件4"
+        },
+        {
+          "id": "xfolder-079",
+          "category": "通过邮件联系我们发送旧版本"
+        },
+        {
+          "id": "xfolder-080",
+          "category": "bug将在下版本修改"
+        },
+        {
+          "id": "xfolder-081",
+          "category": "长按滑动多选"
+        },
+        {
+          "id": "xfolder-082",
+          "category": "sd卡相关"
+        },
+        {
+          "id": "xfolder-083",
+          "category": "sd卡相关2"
+        },
+        {
+          "id": "xfolder-084",
+          "category": "sd卡相关3"
+        },
+        {
+          "id": "xfolder-085",
+          "category": "无法移动文件到sd卡"
+        },
+        {
+          "id": "xfolder-086",
+          "category": "显示隐藏文件夹"
+        },
+        {
+          "id": "xfolder-087",
+          "category": "不显示隐藏文件夹"
+        },
+        {
+          "id": "xfolder-088",
+          "category": "不显示新文件"
+        },
+        {
+          "id": "xfolder-089",
+          "category": "split"
+        },
+        {
+          "id": "xfolder-090",
+          "category": "manage on pc相关"
+        },
+        {
+          "id": "xfolder-091",
+          "category": "抱怨没有ftp"
+        },
+        {
+          "id": "xfolder-092",
+          "category": "播放视频always不生效"
+        },
+        {
+          "id": "xfolder-093",
+          "category": "文本编辑always不生效"
+        },
+        {
+          "id": "xfolder-094",
+          "category": "清除默认"
+        },
+        {
+          "id": "xfolder-095",
+          "category": "查看图片always不生效"
+        },
+        {
+          "id": "xfolder-096",
+          "category": "播放音乐always不生效1"
+        },
+        {
+          "id": "xfolder-097",
+          "category": "播放音乐always不生效2"
+        },
+        {
+          "id": "xfolder-098",
+          "category": "找不到垃圾桶"
+        },
+        {
+          "id": "xfolder-099",
+          "category": "抱怨降低速度"
+        },
+        {
+          "id": "xfolder-100",
+          "category": "安全文件夹里的文件不显示1"
+        },
+        {
+          "id": "xfolder-101",
+          "category": "安全文件夹里的文件不显示2"
+        },
+        {
+          "id": "xfolder-102",
+          "category": "安全文件夹移出失败1"
+        },
+        {
+          "id": "xfolder-103",
+          "category": "安全文件夹移出失败2"
+        },
+        {
+          "id": "xfolder-104",
+          "category": "安全文件夹移出"
+        },
+        {
+          "id": "xfolder-105",
+          "category": "安全文件夹中的文件无法打开"
+        },
+        {
+          "id": "xfolder-106",
+          "category": "安全文件夹找回密码"
+        },
+        {
+          "id": "xfolder-107",
+          "category": "安全文件夹入口"
+        },
+        {
+          "id": "xfolder-108",
+          "category": "解释all files权限"
+        },
+        {
+          "id": "xfolder-109",
+          "category": "9系统及以下sd卡怎么授权"
+        },
+        {
+          "id": "xfolder-110",
+          "category": "添加快捷方式到桌面"
+        },
+        {
+          "id": "xfolder-111",
+          "category": "oppo授予创建快捷方式权限"
+        },
+        {
+          "id": "xfolder-112",
+          "category": "解释网络权限"
+        },
+        {
+          "id": "xfolder-113",
+          "category": "回答收费相关问题1"
+        },
+        {
+          "id": "xfolder-114",
+          "category": "回答收费相关问题2"
+        },
+        {
+          "id": "xfolder-115",
+          "category": "快捷方式内容显示不出来"
+        },
+        {
+          "id": "xfolder-116",
+          "category": "杀毒软件说我们有问题"
+        },
+        {
+          "id": "xfolder-117",
+          "category": "为什么本地图标和商店图标不一致"
+        },
+        {
+          "id": "xfolder-118",
+          "category": "将应用程序移动到sd卡"
+        },
+        {
+          "id": "xfolder-119",
+          "category": "将应用程序移动到sd卡"
+        },
+        {
+          "id": "xfolder-120",
+          "category": "没有xx语言"
+        },
+        {
+          "id": "xfolder-121",
+          "category": "乌克兰语"
+        },
+        {
+          "id": "xfolder-122",
+          "category": "授予在桌面创建快捷方式权限"
+        },
+        {
+          "id": "xfolder-123",
+          "category": "hide list在哪"
+        },
+        {
+          "id": "xfolder-124",
+          "category": "hide是什么意思"
+        },
+        {
+          "id": "xfolder-125",
+          "category": "推荐用户使用hide功能"
+        },
+        {
+          "id": "xfolder-126",
+          "category": "设置永久删除"
+        },
+        {
+          "id": "xfolder-127",
+          "category": "对文件夹按大小进行排序"
+        },
+        {
+          "id": "xfolder-128",
+          "category": "不显示文件夹大小"
+        },
+        {
+          "id": "xfolder-129",
+          "category": "不显示文件夹大小"
+        },
+        {
+          "id": "xfolder-130",
+          "category": "不喜欢应用名字"
+        },
+        {
+          "id": "xfolder-131",
+          "category": "应用名字太长"
+        },
+        {
+          "id": "xfolder-132",
+          "category": "快捷方式不显示全部格式"
+        },
+        {
+          "id": "xfolder-133",
+          "category": "手动授予存储权限"
+        },
+        {
+          "id": "xfolder-134",
+          "category": "用户说我们不安全"
+        },
+        {
+          "id": "xfolder-135",
+          "category": "抱怨清理功能少了"
+        },
+        {
+          "id": "xfolder-136",
+          "category": "更多云服务"
+        },
+        {
+          "id": "xfolder-137",
+          "category": "抱怨加载速度慢"
+        },
+        {
+          "id": "xfolder-138",
+          "category": "抱怨打开速度慢\nsplash"
+        },
+        {
+          "id": "xfolder-139",
+          "category": "移动后没有删除源文件，询问详细信息"
+        },
+        {
+          "id": "xfolder-140",
+          "category": "创建本地用户账户"
+        },
+        {
+          "id": "xfolder-141",
+          "category": "WhatsApp存储文件的路径"
+        },
+        {
+          "id": "xfolder-142",
+          "category": "clean扫描出来的文件太少了"
+        },
+        {
+          "id": "xfolder-143",
+          "category": "无法访问usb"
+        },
+        {
+          "id": "xfolder-144",
+          "category": "询问具体的设备型号的安卓系统"
+        },
+        {
+          "id": "xfolder-145",
+          "category": "谷歌网盘不显示文件1"
+        },
+        {
+          "id": "xfolder-146",
+          "category": "谷歌网盘不显示文件2"
+        },
+        {
+          "id": "xfolder-147",
+          "category": "谷歌网盘升级后1"
+        },
+        {
+          "id": "xfolder-148",
+          "category": "谷歌网盘升级后2"
+        },
+        {
+          "id": "xfolder-149",
+          "category": "13系统授予通知权限"
+        },
+        {
+          "id": "xfolder-150",
+          "category": "smb使用教程"
+        },
+        {
+          "id": "xfolder-151",
+          "category": "创建文件夹/SD卡不识别"
+        },
+        {
+          "id": "xfolder-152",
+          "category": "建议用户更新到最新版本，看问题是否还存在"
+        },
+        {
+          "id": "xfolder-153",
+          "category": "清除缓存"
+        },
+        {
+          "id": "xfolder-154",
+          "category": "关闭通知"
+        },
+        {
+          "id": "xfolder-155",
+          "category": "抱怨复制太麻烦"
+        },
+        {
+          "id": "xfolder-156",
+          "category": "耗电"
+        },
+        {
+          "id": "xfolder-157",
+          "category": "询问是否免费"
+        },
+        {
+          "id": "xfolder-158",
+          "category": "sd卡无法授权"
+        },
+        {
+          "id": "xfolder-159",
+          "category": "抱怨移动后不删除源文件"
+        },
+        {
+          "id": "xfolder-160",
+          "category": "抱怨app占用太多空间"
+        },
+        {
+          "id": "xfolder-161",
+          "category": "手动清除app缓存"
+        },
+        {
+          "id": "xfolder-162",
+          "category": "视频单曲循环"
+        },
+        {
+          "id": "xfolder-163",
+          "category": "抱怨不支持xx云盘"
+        },
+        {
+          "id": "xfolder-164",
+          "category": "已经通过邮件回复"
+        },
+        {
+          "id": "xfolder-165",
+          "category": "视频无法播放"
+        },
+        {
+          "id": "xfolder-166",
+          "category": "三星电池优化"
+        },
+        {
+          "id": "xfolder-167",
+          "category": "启动慢"
+        },
+        {
+          "id": "xfolder-168",
+          "category": "抱怨GDPR"
+        },
+        {
+          "id": "xfolder-169",
+          "category": "关于购买的超详细回复1"
+        },
+        {
+          "id": "xfolder-170",
+          "category": "购买-订阅版"
+        },
+        {
+          "id": "xfolder-171",
+          "category": "关于购买的超详细回复2"
+        },
+        {
+          "id": "xfolder-172",
+          "category": "关于购买的超详细回复3"
+        },
+        {
+          "id": "xfolder-173",
+          "category": "设置壁纸"
+        },
+        {
+          "id": "xfolder-174",
+          "category": "电池"
+        },
+        {
+          "id": "xfolder-175",
+          "category": "切换视图"
+        },
+        {
+          "id": "xfolder-176",
+          "category": "sd卡无法识别"
+        },
+        {
+          "id": "xfolder-177",
+          "category": "xfolder有什么功能"
+        },
+        {
+          "id": "xfolder-178",
+          "category": "无法在同一 wifi 网络上检测到我的本地电脑"
+        },
+        {
+          "id": "xfolder-179",
+          "category": "关于应用文件夹的解释"
+        },
+        {
+          "id": "xfolder-180",
+          "category": "管理快捷方式"
+        },
+        {
+          "id": "xfolder-181",
+          "category": "复制/移动文件时anr"
+        },
+        {
+          "id": "xfolder-182",
+          "category": "将应用移动到sd卡"
+        },
+        {
+          "id": "xfolder-183",
+          "category": "USB不安全移除"
+        },
+        {
+          "id": "xfolder-184",
+          "category": "修改storage space"
+        }
+      ]
+    },
+    "MP3 Cutter": {
+      "templates": [
+        {
+          "id": "mp3cutter-001",
+          "category": "说好但没有五星"
+        },
+        {
+          "id": "mp3cutter-002",
+          "category": "无意义评论求五星"
+        },
+        {
+          "id": "mp3cutter-003",
+          "category": "无意义差评"
+        },
+        {
+          "id": "mp3cutter-004",
+          "category": "缺点+建议没给五星"
+        },
+        {
+          "id": "mp3cutter-005",
+          "category": "询问详细问题"
+        },
+        {
+          "id": "mp3cutter-006",
+          "category": "询问详细建议"
+        },
+        {
+          "id": "mp3cutter-007",
+          "category": "广告太多"
+        },
+        {
+          "id": "mp3cutter-008",
+          "category": "免费使用"
+        },
+        {
+          "id": "mp3cutter-009",
+          "category": "广告加载失败"
+        },
+        {
+          "id": "mp3cutter-010",
+          "category": "有害广告"
+        },
+        {
+          "id": "mp3cutter-011",
+          "category": "截图或录屏"
+        },
+        {
+          "id": "mp3cutter-012",
+          "category": "打不开文件"
+        },
+        {
+          "id": "mp3cutter-013",
+          "category": "转换时间过长"
+        },
+        {
+          "id": "mp3cutter-014",
+          "category": "裁剪后音质降低"
+        },
+        {
+          "id": "mp3cutter-015",
+          "category": "裁剪不准确1"
+        },
+        {
+          "id": "mp3cutter-016",
+          "category": "裁剪不准确2"
+        },
+        {
+          "id": "mp3cutter-017",
+          "category": "播放器精度不显示0.1s的问题"
+        },
+        {
+          "id": "mp3cutter-018",
+          "category": "卸载后删除录音"
+        },
+        {
+          "id": "mp3cutter-019",
+          "category": "询问具体格式"
+        },
+        {
+          "id": "mp3cutter-020",
+          "category": "音频裁剪有噪音"
+        },
+        {
+          "id": "mp3cutter-021",
+          "category": "找不到文件"
+        },
+        {
+          "id": "mp3cutter-022",
+          "category": "找不到转换的文件"
+        },
+        {
+          "id": "mp3cutter-023",
+          "category": "导入ogg音频"
+        },
+        {
+          "id": "mp3cutter-024",
+          "category": "无法保存，不起作用"
+        },
+        {
+          "id": "mp3cutter-025",
+          "category": "购买会员后发现没有video to mp3的功能1"
+        },
+        {
+          "id": "mp3cutter-026",
+          "category": "购买会员后发现没有video to mp3的功能2"
+        },
+        {
+          "id": "mp3cutter-027",
+          "category": "无法连续裁剪"
+        },
+        {
+          "id": "mp3cutter-028",
+          "category": "使用条款不是xx语言"
+        },
+        {
+          "id": "mp3cutter-029",
+          "category": "youtube"
+        },
+        {
+          "id": "mp3cutter-030",
+          "category": "如果你安装这个，它会告诉你安装该公司的所有其他应用程序"
+        },
+        {
+          "id": "mp3cutter-031",
+          "category": "不支持打开长音频"
+        },
+        {
+          "id": "mp3cutter-032",
+          "category": "功能太简单，不是editor"
+        },
+        {
+          "id": "mp3cutter-033",
+          "category": "恢复购买"
+        },
+        {
+          "id": "mp3cutter-034",
+          "category": "解释为什么要访问图片"
+        },
+        {
+          "id": "mp3cutter-035",
+          "category": "小米录音机录制的文件无法剪辑"
+        },
+        {
+          "id": "mp3cutter-036",
+          "category": "俄语用户"
+        },
+        {
+          "id": "mp3cutter-037",
+          "category": "找用户要文件"
+        },
+        {
+          "id": "mp3cutter-038",
+          "category": "新版本中增加设置系统铃声的功能"
+        },
+        {
+          "id": "mp3cutter-039",
+          "category": "13权限"
+        },
+        {
+          "id": "mp3cutter-040",
+          "category": "崩溃"
+        },
+        {
+          "id": "mp3cutter-041",
+          "category": "隐私"
+        },
+        {
+          "id": "mp3cutter-042",
+          "category": "无法保存，发送源文件"
+        },
+        {
+          "id": "mp3cutter-043",
+          "category": "裁剪前后的文件"
+        },
+        {
+          "id": "mp3cutter-044",
+          "category": "建议重装app"
+        },
+        {
+          "id": "mp3cutter-045",
+          "category": "发送旧版本"
+        },
+        {
+          "id": "mp3cutter-046",
+          "category": "质量问题"
+        },
+        {
+          "id": "mp3cutter-047",
+          "category": "建议重启手机"
+        },
+        {
+          "id": "mp3cutter-048",
+          "category": "诈骗app"
+        },
+        {
+          "id": "mp3cutter-049",
+          "category": "价格不一致2257"
+        }
+      ]
+    },
+    "Video to MP3": {
+      "templates": [
+        {
+          "id": "video2mp3-001",
+          "category": "转换时间太长"
+        },
+        {
+          "id": "video2mp3-002",
+          "category": "转换失败"
+        },
+        {
+          "id": "video2mp3-003",
+          "category": "video to audio转换失败"
+        },
+        {
+          "id": "video2mp3-004",
+          "category": "audio cutter失败"
+        },
+        {
+          "id": "video2mp3-005",
+          "category": "不支持某格式"
+        },
+        {
+          "id": "video2mp3-006",
+          "category": "压缩音频大小"
+        },
+        {
+          "id": "video2mp3-007",
+          "category": "找不到转换的文件，11以上"
+        },
+        {
+          "id": "video2mp3-008",
+          "category": "找不到转换的文件，5-10"
+        },
+        {
+          "id": "video2mp3-009",
+          "category": "音乐播放器"
+        },
+        {
+          "id": "video2mp3-010",
+          "category": "谷歌商店无法安装"
+        },
+        {
+          "id": "video2mp3-011",
+          "category": "youtube"
+        },
+        {
+          "id": "video2mp3-012",
+          "category": "在其他设备上恢复购买1"
+        },
+        {
+          "id": "video2mp3-013",
+          "category": "恢复购买"
+        },
+        {
+          "id": "video2mp3-014",
+          "category": "从directories中打开"
+        },
+        {
+          "id": "video2mp3-015",
+          "category": "小米录音机录制的文件无法剪辑"
+        },
+        {
+          "id": "video2mp3-016",
+          "category": "推荐使用稳定模式保存视频"
+        },
+        {
+          "id": "video2mp3-017",
+          "category": "解释为什么m3u8不能转换为mp4"
+        },
+        {
+          "id": "video2mp3-018",
+          "category": "不知道怎么手动授权"
+        },
+        {
+          "id": "video2mp3-019",
+          "category": "视频列表加载不出来"
+        },
+        {
+          "id": "video2mp3-020",
+          "category": "手机存储不足导致转换失败"
+        },
+        {
+          "id": "video2mp3-021",
+          "category": "回复error_0的邮件，要文件"
+        },
+        {
+          "id": "video2mp3-022",
+          "category": "回复result=-36的邮件，改短文件名"
+        },
+        {
+          "id": "video2mp3-023",
+          "category": "发送订单号"
+        },
+        {
+          "id": "video2mp3-024",
+          "category": "m4a转mp3质量下降"
+        },
+        {
+          "id": "video2mp3-025",
+          "category": "询问后缀"
+        },
+        {
+          "id": "video2mp3-026",
+          "category": "抱怨不支持m4a"
+        },
+        {
+          "id": "video2mp3-027",
+          "category": "抱怨不能转换为mp3"
+        },
+        {
+          "id": "video2mp3-028",
+          "category": "抱怨非mp3格式的文件不能修改封面"
+        },
+        {
+          "id": "video2mp3-029",
+          "category": "14系统三星/荣耀授权引导"
+        },
+        {
+          "id": "video2mp3-030",
+          "category": "14系统三星/荣耀授权引导"
+        },
+        {
+          "id": "video2mp3-031",
+          "category": "14系统pixel授权引导"
+        },
+        {
+          "id": "video2mp3-032",
+          "category": "14系统pixel授权引导"
+        },
+        {
+          "id": "video2mp3-033",
+          "category": "14系统vivo授权引导"
+        },
+        {
+          "id": "video2mp3-034",
+          "category": "14系统vivo授权引导"
+        },
+        {
+          "id": "video2mp3-035",
+          "category": "14系统小米授权引导"
+        },
+        {
+          "id": "video2mp3-036",
+          "category": "14系统小米授权引导"
+        },
+        {
+          "id": "video2mp3-037",
+          "category": "14系统oppo/一加/真我授权引导"
+        },
+        {
+          "id": "video2mp3-038",
+          "category": "14系统oppo/一加/真我授权引导"
+        },
+        {
+          "id": "video2mp3-039",
+          "category": "14系统moto授权引导"
+        },
+        {
+          "id": "video2mp3-040",
+          "category": "14系统moto授权引导"
+        },
+        {
+          "id": "video2mp3-041",
+          "category": "虚拟键收起"
+        },
+        {
+          "id": "video2mp3-042",
+          "category": "隐私"
+        },
+        {
+          "id": "video2mp3-043",
+          "category": "音质差"
+        },
+        {
+          "id": "video2mp3-044",
+          "category": "音质差2"
+        },
+        {
+          "id": "video2mp3-045",
+          "category": "文件加载时间长"
+        },
+        {
+          "id": "video2mp3-046",
+          "category": "移动文件到别的路径"
+        },
+        {
+          "id": "video2mp3-047",
+          "category": "移动文件到别的路径2"
+        },
+        {
+          "id": "video2mp3-048",
+          "category": "如何使用"
+        },
+        {
+          "id": "video2mp3-049",
+          "category": "权限相关"
+        },
+        {
+          "id": "video2mp3-050",
+          "category": "批量转换"
+        },
+        {
+          "id": "video2mp3-051",
+          "category": "应用无法打开"
+        },
+        {
+          "id": "video2mp3-052",
+          "category": "价格高"
+        },
+        {
+          "id": "video2mp3-053",
+          "category": "回答收费问题"
+        },
+        {
+          "id": "video2mp3-054",
+          "category": "说好但没有五星"
+        },
+        {
+          "id": "video2mp3-055",
+          "category": "无意义评论求五星"
+        },
+        {
+          "id": "video2mp3-056",
+          "category": "无意义差评"
+        },
+        {
+          "id": "video2mp3-057",
+          "category": "缺点+建议没给五星"
+        },
+        {
+          "id": "video2mp3-058",
+          "category": "询问详细问题"
+        },
+        {
+          "id": "video2mp3-059",
+          "category": "询问详细建议"
+        },
+        {
+          "id": "video2mp3-060",
+          "category": "广告太多"
+        },
+        {
+          "id": "video2mp3-061",
+          "category": "免费使用"
+        },
+        {
+          "id": "video2mp3-062",
+          "category": "广告加载失败"
+        },
+        {
+          "id": "video2mp3-063",
+          "category": "有害广告"
+        },
+        {
+          "id": "video2mp3-064",
+          "category": "截图或录屏"
+        },
+        {
+          "id": "video2mp3-065",
+          "category": "打不开文件"
+        },
+        {
+          "id": "video2mp3-066",
+          "category": "裁剪后音质降低"
+        },
+        {
+          "id": "video2mp3-067",
+          "category": "裁剪不准确1"
+        },
+        {
+          "id": "video2mp3-068",
+          "category": "裁剪不准确2"
+        },
+        {
+          "id": "video2mp3-069",
+          "category": "播放器精度不显示0.1s的问题"
+        }
+      ]
+    }
+  }
+}

@@ -36,6 +36,9 @@ from openpyxl import load_workbook
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE_DIR = ROOT / "data" / "source"
 OUT_FILE = ROOT / "data" / "templates.json"
+# 紧凑「匹配索引」：每条模板只留 id + category（不含全文）。批量回复（路径 A）匹配阶段
+# 只读这个 → 上下文极小、思考量小。命中后再按 id 从 templates.json 取全文翻译。
+OUT_INDEX = ROOT / "data" / "index.json"
 
 # sheet 名 → 产品规范名（package_map.json 用的也是这套）
 SHEET_TO_PRODUCT = {
@@ -126,6 +129,21 @@ def main():
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUT_FILE.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n写入: {OUT_FILE}  ({OUT_FILE.stat().st_size} bytes)")
+
+    # ——— 额外产出紧凑「匹配索引」 index.json（全部模板，仅 id + category）———
+    idx_products: dict[str, dict] = {}
+    for product, pdata in products.items():
+        idx_products[product] = {
+            "templates": [{"id": t["id"], "category": t["category"]} for t in pdata["templates"]]
+        }
+    idx_out = {
+        "version": out["version"],
+        "source_file": src.name,
+        "note": "匹配索引：全部模板的 id+category（无全文）。路径 A 匹配阶段只读这个；命中后按 id 从 templates.json 取全文翻译。",
+        "products": idx_products,
+    }
+    OUT_INDEX.write_text(json.dumps(idx_out, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"\n写入: {OUT_INDEX}  ({OUT_INDEX.stat().st_size} bytes)")
 
     if warnings:
         print(f"\n{len(warnings)} 条警告：", file=sys.stderr)
