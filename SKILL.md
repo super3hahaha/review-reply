@@ -74,13 +74,13 @@ description: >
    - **只认高置信命中（confidence ≥ 0.9）**：评论主题与某 category 明确对症才算命中，记下该 `template_id`。否则该评论 = `unmatched`。
    - **不要勉强**：模糊、宽泛、多主题、纯好评但无对应类别 → 一律 `unmatched`，交给用户单独处理。宁可漏判也不要错配。
 5. **取全文 + 翻译——只对"命中"的评论**：
-   - 把所有命中的 `template_id` 收集起来，用**一条 Bash 命令**从 `<模板目录>/templates.json` 按 id 取出这些模板的英文全文（这样全量模板全文**不进入上下文**）。例如：
+   - 把所有命中的 `template_id` 收集起来，用**一条 Bash 命令**从 `<模板目录>/templates.json` 按 id 取出这些模板的**正文 + 源语言**（这样全量模板全文**不进入上下文**）。模板含 `lang` 字段（`en` 或 `zh-CN`，缺省按 `en`）——**模板库是中/英双源，不要假设一定是英文**。例如取 `id\tlang\ttext`：
      ```
-     python -c "import json,sys; d=json.load(open(r'<模板目录>/templates.json',encoding='utf-8')); m={t['id']:t['text'] for p in d['products'].values() for t in p['templates']}; [print(i+'\t'+m.get(i,'')) for i in sys.argv[1:]]" <id1> <id2> ...
+     python -c "import json,sys; d=json.load(open(r'<模板目录>/templates.json',encoding='utf-8')); m={t['id']:(t.get('lang','en'),t['text']) for p in d['products'].values() for t in p['templates']}; [print(i+'\t'+m.get(i,('en',''))[0]+'\t'+m.get(i,('en',''))[1]) for i in sys.argv[1:]]" <id1> <id2> ...
      ```
    - 确定该评论回复语言 `lang`：`target_language` 是具体 ISO 码 → `lang=target_language`；`== "auto"` → 取 `reviewer_language`，空/不可信则据 `original_text`(无则 `text`) 判定，判不了退回 `"en"` 并记 `warnings`。
-   - 把命中模板的英文全文：`lang=="en"` 直接用原文；否则**忠实翻译**到 `lang`（不改语义、不增删，**邮箱/版本号/OEM 操作步骤/产品名/emoji 一字不改**）。
-   - 再生成一份**中文预览** `text_zh`（`lang=="zh-CN"` 时可与 `text` 一致或留空）。
+   - 把命中模板的正文从它的**源语言**对齐到回复语言 `lang`：**回复语言 == 模板源语言** → 直接用模板原文；否则**忠实翻译**到 `lang`（不改语义、不增删，**邮箱/版本号/OEM 操作步骤/产品名/emoji 一字不改**）。例：源是 `zh-CN` 的模板、回复 `en` → 把中文模板翻成英文；源 `en`、回复 `ru` → 翻成俄语；源 `zh-CN`、回复 `zh-CN` → 原样用。
+   - 再生成一份**中文预览** `text_zh`（回复语言是 `zh-CN` 时可与 `text` 一致或留空）。
    - 该命中评论输出**恰好 1 条候选**（`source: "template"`，含 `template_id` / `category` / `confidence` / `language` / `text` / `text_zh`）。
 6. **写出候选文件**：与输入 JSON 同目录，**把输入文件名的 `.json` 后缀替换成 `.candidates.json`**。
    例：输入 `pending-reviews-1733600000.json` → 输出 `pending-reviews-1733600000.candidates.json`（**不是** `....json.candidates.json`）。
@@ -185,7 +185,7 @@ description: >
 
 ### 2. 翻译纪律
 
-把英文模板翻译到 target_language 时：
+把模板（源语言 `en` 或 `zh-CN`，见模板 `lang` 字段）翻译到 target_language 时：
 - 保持语义和语气（道歉/感谢/求评分等）。
 - 表情符号 / emoji 全部原样保留。
 - 邮箱、版本号、专有名词（"XFolder"、"Android"、"Google Play"）**不翻译**。
