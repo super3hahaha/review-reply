@@ -14,7 +14,9 @@ description: >
 - **命中模板（高置信 ≥0.9）** → 直接用该模板，**只翻两份**（目标语言正文 + 中文预览），**不生成、不凑多条**。
 - **没命中** → **跳过**，标记 `unmatched`，**不生成**。这些评论由用户在 app 里单独处理（app 内有「🤖 AI 回复」单条现生成，不走本 skill）。
 
-> 为控成本，匹配阶段只读紧凑索引 `data/index.json`（全部模板的 id+category，无全文），命中后才按 id 从 `data/templates.json` 取该模板全文翻译。避免把全量模板全文塞进上下文、也不再给每条评论生成多条候选（早期那样做实测 6 条评论 ~$1 / ~9 分钟）。
+> 为控成本，匹配阶段只读紧凑索引 `index.json`（全部模板的 id+category，无全文），命中后才按 id 从 `templates.json` 取该模板全文翻译。避免把全量模板全文塞进上下文、也不再给每条评论生成多条候选（早期那样做实测 6 条评论 ~$1 / ~9 分钟）。
+
+> **模板数据目录由调用方（tester-app）在 prompt 里给出**，形如「模板数据目录：/Users/.../.tester-app/templates」。`index.json` / `templates.json` / `package_map.json` 三个文件都从**这个目录**读，不再用 skill 自带的 `data/`。该目录由 tester-app 的「模板管理」页维护（增删改 + 自动重建索引）。
 
 > 本 skill 是**非交互的批量调用**：唯一入口是一个以 `.json` 结尾、顶层有 `groups` 字段的文件路径（由 tester-app 写好后通过 prompt 传入）。不在对话里逐条现编回复。
 
@@ -61,18 +63,20 @@ description: >
 
 ## 处理步骤
 
-1. **读 `data/package_map.json`**：对每个 `package_name`，查到对应 `product`（"XFolder" / "MP3 Cutter" / "Video to MP3" / null）。
+> 下面步骤里的 `<模板目录>` = 调用方在 prompt 里给出的「模板数据目录」绝对路径。
+
+1. **读 `<模板目录>/package_map.json`**：对每个 `package_name`，查到对应 `product`（"XFolder" / "MP3 Cutter" / "Video to MP3" / null）。
    - `product === null`（ringwall / xplayer）→ 无模板可匹配 → 该 group 所有评论一律 `unmatched`（跳过，不生成）。
-2. **读 `data/index.json`**（**不是全量 templates.json**）：这是紧凑匹配索引，每产品只含每条模板的 `id` + `category`（中文类别名即"关键词/主题"），**没有模板全文**。匹配只用它，上下文很小。
+2. **读 `<模板目录>/index.json`**（**不是全量 templates.json**）：这是紧凑匹配索引，每产品只含每条模板的 `id` + `category`（中文类别名即"关键词/主题"），**没有模板全文**。匹配只用它，上下文很小。
 3. **读 `references/matching_rules.md`**：理解匹配口径。
 4. **匹配阶段——对每条评论判定命中哪条模板**：
    - 评论已带中文译文（输入的 `text` 字段，因 tester-app 用 `translationLanguage: "zh-CN"`）。用 `text`（中文）配合 `original_text` 做语义匹配，看它命中该产品 index 里哪个 `category`。
    - **只认高置信命中（confidence ≥ 0.9）**：评论主题与某 category 明确对症才算命中，记下该 `template_id`。否则该评论 = `unmatched`。
    - **不要勉强**：模糊、宽泛、多主题、纯好评但无对应类别 → 一律 `unmatched`，交给用户单独处理。宁可漏判也不要错配。
 5. **取全文 + 翻译——只对"命中"的评论**：
-   - 把所有命中的 `template_id` 收集起来，用**一条 Bash 命令**从 `data/templates.json` 按 id 取出这些模板的英文全文（这样全量模板全文**不进入上下文**）。例如：
+   - 把所有命中的 `template_id` 收集起来，用**一条 Bash 命令**从 `<模板目录>/templates.json` 按 id 取出这些模板的英文全文（这样全量模板全文**不进入上下文**）。例如：
      ```
-     python -c "import json,sys; d=json.load(open(r'<skill>/data/templates.json',encoding='utf-8')); m={t['id']:t['text'] for p in d['products'].values() for t in p['templates']}; [print(i+'\t'+m.get(i,'')) for i in sys.argv[1:]]" <id1> <id2> ...
+     python -c "import json,sys; d=json.load(open(r'<模板目录>/templates.json',encoding='utf-8')); m={t['id']:t['text'] for p in d['products'].values() for t in p['templates']}; [print(i+'\t'+m.get(i,'')) for i in sys.argv[1:]]" <id1> <id2> ...
      ```
    - 确定该评论回复语言 `lang`：`target_language` 是具体 ISO 码 → `lang=target_language`；`== "auto"` → 取 `reviewer_language`，空/不可信则据 `original_text`(无则 `text`) 判定，判不了退回 `"en"` 并记 `warnings`。
    - 把命中模板的英文全文：`lang=="en"` 直接用原文；否则**忠实翻译**到 `lang`（不改语义、不增删，**邮箱/版本号/OEM 操作步骤/产品名/emoji 一字不改**）。
@@ -195,15 +199,19 @@ description: >
 
 ## 数据文件清单
 
-| 文件 | 用途 | 修改流程 |
-|------|------|---------|
-| `data/source/*.xlsx` | 模板编辑源（全量） | 直接改 xlsx |
-| `data/index.json` | **匹配阶段读这个**（全部模板 id+category，无全文，build 产物） | 改 xlsx 后跑 `python scripts/build_templates.py` |
-| `data/templates.json` | 全量模板全文（命中后按 id 取全文翻译） | 改 xlsx 后跑 `python scripts/build_templates.py` |
-| `data/package_map.json` | packageName → 产品 | 新 app 上线时手动加 |
-| `references/matching_rules.md` | Claude 的匹配启发 | 调匹配效果时改 |
+**运行时数据**已迁到 tester-app 管理的 `<模板目录>`（即 `~/.tester-app/templates/`），由 app 的「模板管理」页增删改、写 templates.json 时**自动重建** index.json。skill 只读，不写：
 
-> `index.json` 是 `templates.json` 的"瘦身视图"（只留 id+category），由 build 自动同步产出。匹配口径在 `references/matching_rules.md` 调。
+| 文件（在 `<模板目录>` 下） | 用途 |
+|------|------|
+| `index.json` | **匹配阶段读这个**（全部模板 id+category，无全文） |
+| `templates.json` | 全量模板全文（命中后按 id 取全文翻译） |
+| `package_map.json` | packageName → 产品 |
+
+仓库内 `data/` 与 `references/`：
+| 文件 | 用途 |
+|------|------|
+| `data/source/*.xlsx`、`data/*.json`、`scripts/build_templates.py` | **历史/初始种子**：app 首次启动时从 skill 同步下来的 `data/*.json` 拷一份做种子，之后以 `<模板目录>` 为准，不再是运行时来源；日常编辑全在 app 里。 |
+| `references/matching_rules.md` | Claude 的匹配启发（仍随 skill 走），调匹配效果时改。 |
 
 ---
 

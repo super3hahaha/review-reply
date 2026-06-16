@@ -35,13 +35,24 @@ review-reply/
 
 ## 数据流
 
+> **v0.2.3 起：运行时模板数据已迁到 tester-app**。模板由 tester-app「模板管理」页维护，
+> 落在 `~/.tester-app/templates/`（templates.json + 自动重建的 index.json + package_map.json）。
+> skill 运行时**从 tester-app 在 prompt 里给出的「模板数据目录」读**，不再读本仓库 `data/`。
+> 本仓库 `data/*.json` + xlsx + build 脚本降级为「初始种子」（app 首次启动从 skill 同步下来的
+> data/ 拷一份），日常增删改全在 app 里做。
+
 ```
-[xlsx] → build_templates.py → [templates.json] + [index.json]
-                                        ↓
+（运行时）
+  ~/.tester-app/templates/{index.json, templates.json, package_map.json}   ← app 模板管理页维护
+                                        ↓  （reply.rs --add-dir + prompt 传目录路径）
               [tester-app pending-*.json] → Claude with SKILL.md → [*.candidates.json]
                   匹配阶段读 index.json（小）→ 命中后按 id 从 templates.json 取全文翻译
                                         ↑
-              [package_map.json, matching_rules.md]
+                          [matching_rules.md]（仍随 skill）
+
+（初始种子，历史）
+  [xlsx] → build_templates.py → 本仓库 data/{templates.json, index.json}
+                                        ↓  app 首次启动经 ~/.claude/skills/.../data 拷为种子
 ```
 
 ## 发布 & 分发（已走热更新）
