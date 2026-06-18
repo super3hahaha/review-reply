@@ -65,14 +65,17 @@ description: >
 
 > 下面步骤里的 `<模板目录>` = 调用方在 prompt 里给出的「模板数据目录」绝对路径。
 
-1. **读 `<模板目录>/package_map.json`**：对每个 `package_name`，查到对应 `product`（"XFolder" / "MP3 Cutter" / "Video to MP3" / null）。
-   - `product === null`（ringwall / xplayer）→ 无模板可匹配 → 该 group 所有评论一律 `unmatched`（跳过，不生成）。
-2. **读 `<模板目录>/index.json`**（**不是全量 templates.json**）：这是紧凑匹配索引，每产品只含每条模板的 `id` + `category`（中文类别名即"关键词/主题"），**没有模板全文**。匹配只用它，上下文很小。
+1. **读 `<模板目录>/package_map.json`**：对每个 `package_name`，查到对应**专属 product**（"XFolder" / "MP3 Cutter" / "Video to MP3" / null）。
+   - **「公共」产品对所有 app 生效**：无论专属 product 是什么（**含 `null`**），匹配候选都要并入「公共」产品的模板（跨 app 的通用回复，如求好评、感谢反馈、通用排查引导）。
+   - 因此 `product === null`（ringwall / xplayer）**不再一律 `unmatched`**——它们没有专属模板，但仍可命中「公共」模板。
+2. **读 `<模板目录>/index.json`**（**不是全量 templates.json**）：紧凑匹配索引，每产品含每条模板的 `id` + `category`（中文类别名即"关键词/主题"），无全文。取两组候选：**「公共」product 的模板**（所有 app 都用）和**该 app 专属 product 的模板**（若有）。按「**先公共、后专属**」匹配（见步骤 4）。匹配只用 index，上下文很小。
 3. **读 `references/matching_rules.md`**：理解匹配口径。
-4. **匹配阶段——对每条评论判定命中哪条模板**：
-   - 评论已带中文译文（输入的 `text` 字段，因 tester-app 用 `translationLanguage: "zh-CN"`）。用 `text`（中文）配合 `original_text` 做语义匹配，看它命中该产品 index 里哪个 `category`。
-   - **只认高置信命中（confidence ≥ 0.9）**：评论主题与某 category 明确对症才算命中，记下该 `template_id`。否则该评论 = `unmatched`。
-   - **不要勉强**：模糊、宽泛、多主题、纯好评但无对应类别 → 一律 `unmatched`，交给用户单独处理。宁可漏判也不要错配。
+4. **匹配阶段——对每条评论判定命中哪条模板（先公共、后专属）**：
+   - 评论已带中文译文（输入的 `text` 字段，因 tester-app 用 `translationLanguage: "zh-CN"`）。用 `text`（中文）配合 `original_text` 做语义匹配。
+   - **第一步，先匹配「公共」**：评论是否高置信命中「公共」产品里某 `category`（confidence ≥ 0.9）→ 命中就用该公共模板（`common-*`），**到此为止，不再看专属**。
+   - **第二步，公共没对症，再匹配专属**：评论高置信命中该 app 专属产品某 `category` → 用专属模板（如 `xfolder-*` / `mp3cutter-*`）。
+   - 两边都没高置信对症 → `unmatched`。
+   - **只认高置信（≥ 0.9），不要勉强**：模糊、宽泛、多主题、纯好评但无对应类别 → `unmatched`。宁可漏判也不要错配。
 5. **取全文 + 对齐回复语言——只对"命中"的评论**：
    - 把所有命中的 `template_id` 收集起来，用**一条 Bash 命令**从 `<模板目录>/templates.json` 按 id 取出这些模板的 **源语言 `lang` + 正文 `text` + 预存译文 `translations`**（这样全量模板全文**不进入上下文**）。模板是中/英双源（`lang`=`en` 或 `zh-CN`，缺省 `en`），且**大多已预翻译好各语言**存在 `translations`（语言码→译文，app 原生码如 `ru`/`zh-rCN`）。输出每个 id 的 JSON：
      ```
