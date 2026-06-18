@@ -73,14 +73,17 @@ description: >
    - 评论已带中文译文（输入的 `text` 字段，因 tester-app 用 `translationLanguage: "zh-CN"`）。用 `text`（中文）配合 `original_text` 做语义匹配，看它命中该产品 index 里哪个 `category`。
    - **只认高置信命中（confidence ≥ 0.9）**：评论主题与某 category 明确对症才算命中，记下该 `template_id`。否则该评论 = `unmatched`。
    - **不要勉强**：模糊、宽泛、多主题、纯好评但无对应类别 → 一律 `unmatched`，交给用户单独处理。宁可漏判也不要错配。
-5. **取全文 + 翻译——只对"命中"的评论**：
-   - 把所有命中的 `template_id` 收集起来，用**一条 Bash 命令**从 `<模板目录>/templates.json` 按 id 取出这些模板的**正文 + 源语言**（这样全量模板全文**不进入上下文**）。模板含 `lang` 字段（`en` 或 `zh-CN`，缺省按 `en`）——**模板库是中/英双源，不要假设一定是英文**。例如取 `id\tlang\ttext`：
+5. **取全文 + 对齐回复语言——只对"命中"的评论**：
+   - 把所有命中的 `template_id` 收集起来，用**一条 Bash 命令**从 `<模板目录>/templates.json` 按 id 取出这些模板的 **源语言 `lang` + 正文 `text` + 预存译文 `translations`**（这样全量模板全文**不进入上下文**）。模板是中/英双源（`lang`=`en` 或 `zh-CN`，缺省 `en`），且**大多已预翻译好各语言**存在 `translations`（语言码→译文，app 原生码如 `ru`/`zh-rCN`）。输出每个 id 的 JSON：
      ```
-     python -c "import json,sys; d=json.load(open(r'<模板目录>/templates.json',encoding='utf-8')); m={t['id']:(t.get('lang','en'),t['text']) for p in d['products'].values() for t in p['templates']}; [print(i+'\t'+m.get(i,('en',''))[0]+'\t'+m.get(i,('en',''))[1]) for i in sys.argv[1:]]" <id1> <id2> ...
+     python -c "import json,sys; d=json.load(open(r'<模板目录>/templates.json',encoding='utf-8')); m={t['id']:{'lang':t.get('lang','en'),'text':t['text'],'translations':t.get('translations',{})} for p in d['products'].values() for t in p['templates']}; print(json.dumps({i:m.get(i) for i in sys.argv[1:]},ensure_ascii=False))" <id1> <id2> ...
      ```
    - 确定该评论回复语言 `lang`：`target_language` 是具体 ISO 码 → `lang=target_language`；`== "auto"` → 取 `reviewer_language`，空/不可信则据 `original_text`(无则 `text`) 判定，判不了退回 `"en"` 并记 `warnings`。
-   - 把命中模板的正文从它的**源语言**对齐到回复语言 `lang`：**回复语言 == 模板源语言** → 直接用模板原文；否则**忠实翻译**到 `lang`（不改语义、不增删，**邮箱/版本号/OEM 操作步骤/产品名/emoji 一字不改**）。例：源是 `zh-CN` 的模板、回复 `en` → 把中文模板翻成英文；源 `en`、回复 `ru` → 翻成俄语；源 `zh-CN`、回复 `zh-CN` → 原样用。
-   - 再生成一份**中文预览** `text_zh`（回复语言是 `zh-CN` 时可与 `text` 一致或留空）。
+   - **【优先吃预存译文，命中就不要再翻译】** 把回复语言 `lang` 归一成模板语言码 `mlang`：`zh-CN`/`zh-Hans`→`zh-rCN`；`zh-TW`/`zh-Hant`→`zh-rTW`；`id`→`in`；其余取主子标签（`pt-BR`→`pt` 等）。然后：
+     1. `mlang` 归一后 == 模板源语言（源 `en` 回 `en`，或源 `zh-CN` 回 `zh-rCN`）→ **直接用模板原文 `text`**。
+     2. 否则 `translations[mlang]` 存在且非空 → **直接用这条预存译文，不要自己翻译**。
+     3. 都没有（漏译/新语言）→ **回退实时翻译**：把 `text` 从源语言忠实翻到 `lang`（不改语义、不增删，**邮箱/版本号/OEM 操作步骤/产品名/emoji 一字不改**），并在 `warnings` 记一笔 `review_id xxx: 模板 yyy 缺 mlang 译文，已实时翻译`（便于回头到 app 补全）。
+   - 再生成一份**中文预览** `text_zh`（回复语言是 `zh-CN`/`zh-rCN` 时可与 `text` 一致或留空）。预存译文里若已有 `zh-rCN`，可直接用作 `text_zh`。
    - 该命中评论输出**恰好 1 条候选**（`source: "template"`，含 `template_id` / `category` / `confidence` / `language` / `text` / `text_zh`）。
 6. **写出候选文件**：与输入 JSON 同目录，**把输入文件名的 `.json` 后缀替换成 `.candidates.json`**。
    例：输入 `pending-reviews-1733600000.json` → 输出 `pending-reviews-1733600000.candidates.json`（**不是** `....json.candidates.json`）。
